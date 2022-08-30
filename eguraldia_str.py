@@ -47,11 +47,13 @@ st.header('## Gràfica 1: Pluja anual a cada municipi')
 st.markdown('Primer, amb el menú, tria el municipi')   
 st.markdown('Despres, pren el botó de sota')  
 
-selected_geography = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
-submitted = st.button('Envia selecció')
+with st.form('line_chart'):
 
-if submitted:
-	filtered_tokia = df_all[df_all['Tokia'] == selected_geography]
-	datuak_gr1=filtered_tokia.sort_values(['Urtea'],ascending=True).groupby(['Urtea'], sort = False).sum()['Euria'] 
-	chart_data = datuak_gr1
-	st.bar_chart(chart_data)
+	selected_geography = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
+	submitted = st.form_submit_button('Envia selecció')
+
+	if submitted:
+		filtered_tokia = df_all[df_all['Tokia'] == selected_geography]
+		datuak_gr1=filtered_tokia.sort_values(['Urtea'],ascending=True).groupby(['Urtea'], sort = False).sum()['Euria'] 
+		chart_data = datuak_gr1
+		st.bar_chart(chart_data)
