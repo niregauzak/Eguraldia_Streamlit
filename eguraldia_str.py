@@ -32,7 +32,7 @@ $\cdot$ Dades d\'AEMET: Alforja (primera lletra en majúscula)
 ###Datuak lortu
 ##=================================
 
-f_csv='../Denak_batera.csv'
+f_csv='./Denak_batera.csv'
 
 @st.cache
 def load_data(path):
