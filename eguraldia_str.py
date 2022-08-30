@@ -11,6 +11,15 @@ Dades obtingudes des de:
 [AEMET](https://www.meteoprades.net/)  
 ''')
 
+#=============================
+#Side Bar
+#=============================
+with st.sidebar:
+    st.subheader('Dades Meteorològiques')
+    st.markdown('Jon Mujika')
+    
+st.sidebar.image('star-4167939__480.jpg', width=250)
+
 ##=================================
 ###Datuak lortu
 ##=================================
