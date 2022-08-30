@@ -1,1 +1,4 @@
-Bi fitxero
+Bi fitxero:
+
+Denak_Batera:csv: datu guztiak (AEMET+Meteoprades)
+eguraldia_str.py: python kodea, Streamlit-ekin
