@@ -1,15 +1,8 @@
 import streamlit as st
 import pandas as pd
-#import plotly.express as px
 import numpy as np
 import glob
 import os
-#import matplotlib.pyplot as plt
-#import ipywidgets as widgets
-#from ipywidgets import interactive, HBox, VBox, TwoByTwoLayout
-#from IPython.display import display
-#%matplotlib inline
-
 
 st.header('# Dades Meteorològiques')
 st.markdown('''
@@ -51,24 +44,14 @@ euri_egunak=euridunak.sort_values(['Tokia','Urtea'],ascending=True).groupby(['To
 ##=================================
 
 st.header('## Gràfica 1: Pluja anual a cada municipi')
-st.markdown('Amb el menú, es pot triar el municipi')     
+st.markdown('Primer, amb el menú, tria el municipi')   
+st.markdown('Despres, pren el botó de sota')  
 
+selected_geography = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
+submitted = st.button('Envia selecció')
 
-#-----------------------
-kk=df_all[df_all['Tokia'] == 'Donostia']
-datuak_gr1=kk.sort_values(['Urtea'],ascending=True).groupby(['Urtea'], sort = False).sum()['Euria'] 
-
-chart_data = datuak_gr1
-
-st.bar_chart(chart_data)
-#-----------------------
-
-selected_geography = st.selectbox(label='Geography', options=avocado['geography'].unique())
-submitted = st.button('Submit')
 if submitted:
-    filtered_avocado = avocado[avocado['geography'] == selected_geography]
-    line_fig = px.line(filtered_avocado,
-                       x='date', y='average_price',
-                       color='type',
-                       title=f'Avocado Prices in {selected_geography}')
-    st.plotly_chart(line_fig)
+	filtered_tokia = df_all[df_all['Tokia'] == selected_geography]
+	datuak_gr1=filtered_tokia.sort_values(['Urtea'],ascending=True).groupby(['Urtea'], sort = False).sum()['Euria'] 
+	chart_data = datuak_gr1
+	st.bar_chart(chart_data)
