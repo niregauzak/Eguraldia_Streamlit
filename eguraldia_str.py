@@ -6,6 +6,20 @@ import glob
 import os
 #import matplotlib.pyplot as plt
 
+##=================================
+###Datuak lortu
+##=================================
+
+f_csv='../Denak_batera.csv' #Ubunturako
+#f_csv='./Denak_batera.csv' #Github-erako
+
+@st.cache
+def load_data(path):
+    dataset = pd.read_csv(path, sep='\t')
+    return dataset
+
+df_all = load_data(f_csv)
+
 #################################
 #Sidebar
 #=================================
@@ -31,20 +45,6 @@ Nota 2: Periode de les dades:
 $\cdot$ Dades de Meteoprades: a partir de 2019  
 $\cdot$ Dades d\'AEMET: a partir de 2013  
 ''')
-
-##=================================
-###Datuak lortu
-##=================================
-
-f_csv='./Denak_batera.csv'
-
-@st.cache
-def load_data(path):
-    dataset = pd.read_csv(path, sep='\t')
-    return dataset
-
-df_all = load_data(f_csv)
-
 
 ##=================================
 ##Euriaren kalkuluak
@@ -233,15 +233,23 @@ st.markdown('Finalment, pren el botó de sota')
 with st.form('Grafika2'):
 
 	selected_toki2 = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
-	selected_urte2 = st.selectbox(label='Any', options=df_all['Urtea'].unique())
+	#selected_urte2 = st.selectbox(label='Any', options=df_all['Urtea'].unique())
+	#Goiko aukerarekin, urteak desordenatuta daude. Eskuz jarriko ditut
+	selected_urte2 = st.selectbox(label='Any', options=[2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
 	submitted2 = st.form_submit_button('Envia selecció')
 
 	if submitted2:
+		
+
 		tmp_tokia2 = df_all[df_all['Tokia'] == selected_toki2]
 		filtered_2 = tmp_tokia2[tmp_tokia2['Urtea'] == selected_urte2]
 		datuak_gr2=filtered_2.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria'] 
 		chart_data2 = datuak_gr2
-		st.bar_chart(chart_data2)
+		if (selected_urte2<2019 and (selected_toki2=='vilaplana' or selected_toki2=='la-mussara' or 
+			selected_toki2=='lalbiol' or selected_toki2=='laleixar' or selected_toki2=='alforja')):
+			st.markdown("Per aquest municipi, dades disponibles a partir de l'any 2019")
+		else:
+			st.bar_chart(chart_data2)
 
 ##=================================
 ## Grafika 3: Leku baterako, bi urteko euria konparatu hilabeteka
