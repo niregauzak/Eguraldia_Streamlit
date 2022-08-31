@@ -10,8 +10,8 @@ import os
 ###Datuak lortu
 ##=================================
 
-f_csv='../Denak_batera.csv' #Ubunturako
-#f_csv='./Denak_batera.csv' #Github-erako
+#f_csv='../Denak_batera.csv' #Ubunturako
+f_csv='./Denak_batera.csv' #Github-erako
 
 @st.cache
 def load_data(path):
