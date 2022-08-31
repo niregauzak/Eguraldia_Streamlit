@@ -23,16 +23,20 @@ Dades obtingudes des de:
 [Meteoprades](https://www.meteoprades.net)  : Vilaplana, La-Mussara, Alforja, l\'Aleixar, l'Albiol  
 [AEMET](https://www.meteoprades.net/): Donosti, Bilbo, Gasteiz, Iruña, Alforja, Reus, Tarragona, Vigo  
   
-Nota: fixeu-vos que en el cas d'Alforja hi ha dades de les dues fonts. Com diferenciar-les:  
+Nota 1: fixeu-vos que en el cas d'Alforja hi ha dades de les dues fonts. Com diferenciar-les:  
 $\cdot$ Dades de Meteoprades: alforja (tot en minúscula)  
-$\cdot$ Dades d\'AEMET: Alforja (primera lletra en majúscula)  
+$\cdot$ Dades d\'AEMET: Alforja (primera lletra en majúscula)   
+
+Nota 2: Periode de les dades:  
+$\cdot$ Dades de Meteoprades: a partir de 2019  
+$\cdot$ Dades d\'AEMET: a partir de 2013  
 ''')
 
 ##=================================
 ###Datuak lortu
 ##=================================
 
-f_csv='./Denak_batera.csv'
+f_csv='../Denak_batera.csv'
 
 @st.cache
 def load_data(path):
@@ -57,7 +61,7 @@ euria_urteko=euridunak.sort_values(['Tokia','Urtea'],ascending=True).groupby(['T
 euri_egunak=euridunak.sort_values(['Tokia','Urtea'],ascending=True).groupby(['Tokia','Urtea']).agg(np.size)['Eguna']
 
 ##=================================
-## Taula
+## Taula 1: Datu guztiak
 ##=================================
 
 st.header('## Taula per filtrar totes les dades')
@@ -80,24 +84,122 @@ with st.form('Taula5'):
 	selected_zenbat= st.selectbox(label='Nombre de dades', options=[5,10,20,30,50])
 	submitted5 = st.form_submit_button('Envia selecció')
 
-	data_all = df_all.sort_values(by=selected_zer,ascending=False)
-	data_all.reset_index(inplace = True)
-    #Orain, filtratu toki konkretu baterako
-	if (selected_toki5=='Tots'):        
-		if (selected_zer=='Tmin'):
-			data_non=data_all.sort_values(by=selected_zer,ascending=True)
-		else:
-			data_non=data_all.sort_values(by=selected_zer,ascending=False)
-	else: #Ez guztiak, hau da, toki konkretu bat
-		if (selected_zer=='Tmin'):
-			data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=True)
-		else:
-			data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=False)
-	data_non.reset_index(inplace = True)
-    
-	df_table=data_non[['Tokia','Eguna','Hilab','Urtea',selected_zer]][:selected_zenbat]
-	st.dataframe(df_table)
+	if submitted5:
 
+		data_all = df_all.sort_values(by=selected_zer,ascending=False)
+		data_all.reset_index(inplace = True)
+    #Orain, filtratu toki konkretu baterako
+		if (selected_toki5=='Tots'):        
+			if (selected_zer=='Tmin'):
+				data_non=data_all.sort_values(by=selected_zer,ascending=True)
+			else:
+				data_non=data_all.sort_values(by=selected_zer,ascending=False)
+		else: #Ez guztiak, hau da, toki konkretu bat
+			if (selected_zer=='Tmin'):
+				data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=True)
+			else:
+				data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=False)
+		data_non.reset_index(inplace = True)
+    
+		df_table=data_non[['Tokia','Eguna','Hilab','Urtea',selected_zer]][:selected_zenbat]
+		#st.table(df_table)
+		st.table(df_table.style.format({selected_zer: '{:.1f}'}))
+
+##=================================
+## Taula 2: Euriaren datuak urteka
+##=================================
+
+st.header('## Taula amb dades de pluja anuals per un municipi')
+st.markdown('''
+	Primer menú, tria el municipi.   
+	Tot seguit, pren el botó de sota
+	''')    
+
+with st.form('Taula6'):
+
+	selected_toki6 = st.selectbox(label='Municipi', options=['vilaplana','la-mussara','laleixar','lalbiol','alforja',
+		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
+	submitted6 = st.form_submit_button('Envia selecció')
+
+	if submitted6:
+
+		filtered_ta6 = df_all[df_all['Tokia'] == selected_toki6]
+
+		datuak_ta6=filtered_ta6.sort_values(['Urtea'],ascending=True).groupby(['Urtea'], sort = False).sum()['Euria'] 
+	#datuak_ta6.reset_index(inplace = True)
+    
+	#df_table6=datuak_ta6[['Tokia','Urtea','Euria']][:selected_zenbat]
+	#st.dataframe(df_table6)
+		st.table(datuak_ta6.map('{:.1f}'.format))#.style.format("{:.1f}"))
+
+##=================================
+## Taula 3: Euriaren datuak hilabeteka
+##=================================
+
+st.header('## Taula amb dades de pluja mensuals per any i per municipi')
+st.markdown('''
+	Primer menú, tria el municipi. 
+	Segon menú, tria un any.   
+	Per últim, pren el botó de sota
+	''')    
+
+with st.form('Taula7'):
+
+	selected_toki7 = st.selectbox(label='Municipi', options=['vilaplana','la-mussara','laleixar','lalbiol','alforja',
+		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
+	#selected_urte7a = st.selectbox(label='Any 1', options=[2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	#selected_urte7b = st.selectbox(label='Any 2', options=[2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	submitted7 = st.form_submit_button('Envia selecció')
+
+	if submitted7:
+
+		tmp_tokia7 = df_all[df_all['Tokia'] == selected_toki7]
+
+		if (selected_toki7=='vilaplana' or selected_toki7=='la-mussara' or selected_toki7=='laleixar' or 
+			selected_toki7=='lalbiol' or selected_toki7=='alforja'):
+			
+			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
+			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
+			filtered_2020 = tmp_tokia7[tmp_tokia7['Urtea'] == 2020]
+			filtered_2019 = tmp_tokia7[tmp_tokia7['Urtea'] == 2019]
+			
+			datuak_2022=filtered_2022.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2021=filtered_2021.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2020=filtered_2020.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2019=filtered_2019.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+
+			batera = pd.concat([datuak_2022,datuak_2021,datuak_2020,datuak_2019], ignore_index=True, axis=1)
+			batera=batera.rename(columns = {0:'2022',1:'2021',2:'2020',3:'2019'})
+		else:
+			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
+			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
+			filtered_2020 = tmp_tokia7[tmp_tokia7['Urtea'] == 2020]
+			filtered_2019 = tmp_tokia7[tmp_tokia7['Urtea'] == 2019]
+			filtered_2018 = tmp_tokia7[tmp_tokia7['Urtea'] == 2018]
+			filtered_2017 = tmp_tokia7[tmp_tokia7['Urtea'] == 2017]
+			filtered_2016 = tmp_tokia7[tmp_tokia7['Urtea'] == 2016]
+			filtered_2015 = tmp_tokia7[tmp_tokia7['Urtea'] == 2015]
+			filtered_2014 = tmp_tokia7[tmp_tokia7['Urtea'] == 2014]
+			filtered_2013 = tmp_tokia7[tmp_tokia7['Urtea'] == 2013]
+			
+			datuak_2022=filtered_2022.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2021=filtered_2021.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2020=filtered_2020.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2019=filtered_2019.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2018=filtered_2018.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2017=filtered_2017.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2016=filtered_2016.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2015=filtered_2015.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2014=filtered_2014.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+			datuak_2013=filtered_2013.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
+
+			batera = pd.concat([datuak_2022,datuak_2021,datuak_2020,datuak_2019,datuak_2018,datuak_2017,datuak_2016,
+				datuak_2015,datuak_2014,datuak_2013], ignore_index=True, axis=1)
+			batera=batera.rename(columns = {0:'2022',1:'2021',2:'2020',3:'2019',4:'2018',5:'2017',6:'2016',7:'2015',8:'2014',9:'2013'})
+
+		
+		#st.dataframe(datuak_ta7)
+		st.table(batera.style.format("{:.1f}"))
 
 ##=================================
 ## Grafika 1: Leku baterako, euria urteka
