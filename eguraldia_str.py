@@ -36,7 +36,7 @@ $\cdot$ Dades d\'AEMET: a partir de 2013
 ###Datuak lortu
 ##=================================
 
-f_csv='../Denak_batera.csv'
+f_csv='./Denak_batera.csv'
 
 @st.cache
 def load_data(path):
