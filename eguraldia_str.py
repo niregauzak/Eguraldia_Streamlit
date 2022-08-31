@@ -10,8 +10,8 @@ import os
 ###Datuak lortu
 ##=================================
 
-#f_csv='../Denak_batera.csv' #Ubunturako
-f_csv='./Denak_batera.csv' #Github-erako
+f_csv='../Denak_batera.csv' #Ubunturako
+#f_csv='./Denak_batera.csv' #Github-erako
 
 @st.cache
 def load_data(path):
@@ -61,49 +61,62 @@ euria_urteko=euridunak.sort_values(['Tokia','Urtea'],ascending=True).groupby(['T
 euri_egunak=euridunak.sort_values(['Tokia','Urtea'],ascending=True).groupby(['Tokia','Urtea']).agg(np.size)['Eguna']
 
 ##=================================
-## Taula 1: Datu guztiak
+## Taula 0: Datu guztiak modu askotara
 ##=================================
 
 st.header('## Taula per filtrar totes les dades')
 st.markdown('''
-	Primer menú, tria el municipi. Hi ha l\'opció de triar tots els municipis  
-	Segon menú tria el paràmetre. Les opecions són:  
+	 
+	Menú 'Paràmetre': tria el paràmetre. Les opecions són:  
 			$\cdot$ Tmax: Temperatura màxima d'un dia  
 			$\cdot$ Tmin: Temperatura mínima d'un dia  
 			$\cdot$ Euria: Pluja d'un dia  
 			$\cdot$ Vmax: Velocitat màxima del vent d'un dia  
-	Tercer menú: tria quantes dades apareixeran a la taula.  
-	Finalment, pren el botó de sota
+	Menú 'Municipi': tria el municipi. Hi ha l\'opció de triar tots els municipis.  
+	Menú 'Any': tria l'any. Hi ha l'opció de tots els anys.  
+	Menú 'Mes': tria el mes. Hi ha l'opció de tots els messos.  
+	Menú 'Nombre de dades': tria quantes dades apareixeran a la taula.  
+	IMPORTANT: per que s'actualitzi la taula, pren el botó 'Envia selecció'.  
 	''')    
 
-with st.form('Taula5'):
+with st.form('Taula0'):
 
-	selected_zer = st.selectbox(label='Paràmetre', options=['Tmax','Tmin','Euria','Vmax'])
-	selected_toki5 = st.selectbox(label='Municipi', options=['Tots', 'vilaplana','la-mussara','laleixar','lalbiol','alforja',
+	selected_zer0 = st.selectbox(label='Paràmetre', options=['Tmax','Tmin','Euria','Vmax'])
+	selected_toki0 = st.selectbox(label='Municipi', options=['Tots', 'vilaplana','la-mussara','laleixar','lalbiol','alforja',
 		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
-	selected_zenbat= st.selectbox(label='Nombre de dades', options=[5,10,20,30,50])
-	submitted5 = st.form_submit_button('Envia selecció')
+	selected_urte0 = st.selectbox(label='Any', options=['Tots',2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	selected_hilab0 = st.selectbox(label='Mes', options=['Tots', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+	selected_zenbat0= st.selectbox(label='Nombre de dades', options=[5,10,20,30,50])
+	submitted0 = st.form_submit_button('Envia selecció')
 
-	if submitted5:
+	if submitted0:
 
-		data_all = df_all.sort_values(by=selected_zer,ascending=False)
-		data_all.reset_index(inplace = True)
-    #Orain, filtratu toki konkretu baterako
-		if (selected_toki5=='Tots'):        
-			if (selected_zer=='Tmin'):
-				data_non=data_all.sort_values(by=selected_zer,ascending=True)
-			else:
-				data_non=data_all.sort_values(by=selected_zer,ascending=False)
-		else: #Ez guztiak, hau da, toki konkretu bat
-			if (selected_zer=='Tmin'):
-				data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=True)
-			else:
-				data_non=data_all.loc[data_all['Tokia'] == selected_toki5].sort_values(by=selected_zer,ascending=False)
-		data_non.reset_index(inplace = True)
+    	#Aurrena, filtratu toki konkretu baterako
+		if (selected_toki0 =='Tots'):
+			filt_1 = df_all
+		else:
+			filt_1 = df_all[df_all['Tokia'] == selected_toki0]
+		#Orain, urte baterako
+		if (selected_urte0 =='Tots'):
+			filt_2 = filt_1 
+		else:
+			filt_2 = filt_1[filt_1['Urtea'] == selected_urte0]
+		#Azkenik, hilabeteka
+		if (selected_hilab0 =='Tots'):
+			filt_3 = filt_2 
+		else:
+			filt_3 = filt_2[filt_2['Hilab'] == selected_hilab0]
+
+
+		if (selected_zer0=='Tmin'):
+				data_all=filt_3.sort_values(by=selected_zer0,ascending=True)
+		else:
+				data_all=filt_3.sort_values(by=selected_zer0,ascending=False)
     
-		df_table=data_non[['Tokia','Eguna','Hilab','Urtea',selected_zer]][:selected_zenbat]
+		df_table=data_all[['Tokia','Eguna','Hilab','Urtea',selected_zer0]][:selected_zenbat0]
 		#st.table(df_table)
-		st.table(df_table.style.format({selected_zer: '{:.1f}'}))
+		st.table(df_table.style.format({selected_zer0: '{:.1f}'}))
+
 
 ##=================================
 ## Taula 2: Euriaren datuak urteka
@@ -259,6 +272,25 @@ with st.form('Grafika2'):
 ##=================================
 ## Grafika 4: Leku baterako eta urte baterako, haize-egunak hilabetero
 ##=================================
-#Egiteko
+
+st.header('## Gràfica 3: Dies de vent anual a cada municipi')
+st.markdown('Per a un municipi, quans dies de vent hi van haver-hi.')   
+st.markdown('Es pot triar la velocitat mínima del vent')  
+
+
+with st.form('Grafika4'):
+
+	selected_toki4 = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
+	selected_vel = st.slider('Velocitat mínima del vent', 0, 100, 10)
+	submitted4 = st.form_submit_button('Envia selecció')
+
+	if submitted4:
+		tmp_tokia4 = df_all[df_all['Tokia'] == selected_toki4]
+		filtered_gr4 = tmp_tokia4[tmp_tokia4['Vmax'] > selected_vel]
+		datuak_gr4=filtered_gr4.sort_values(['Urtea'],ascending=True).groupby(['Urtea']).agg(np.size)['Vmax']
+		
+		chart_data4 = datuak_gr4
+		#st.write(datuak_gr4)
+		st.bar_chart(chart_data4)
 
 
