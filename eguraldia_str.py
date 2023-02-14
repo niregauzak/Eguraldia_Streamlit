@@ -84,7 +84,7 @@ with st.form('Taula0'):
 	selected_zer0 = st.selectbox(label='Paràmetre', options=['Tmax','Tmin','Euria','Vmax'])
 	selected_toki0 = st.selectbox(label='Municipi', options=['Tots', 'vilaplana','la-mussara','laleixar','lalbiol','alforja',
 		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
-	selected_urte0 = st.selectbox(label='Any', options=['Tots',2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	selected_urte0 = st.selectbox(label='Any', options=['Tots',2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
 	selected_hilab0 = st.selectbox(label='Mes', options=['Tots', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 	selected_zenbat0= st.selectbox(label='Nombre de dades', options=[5,10,20,30,50])
 	submitted0 = st.form_submit_button('Envia selecció')
@@ -171,6 +171,7 @@ with st.form('Taula7'):
 		if (selected_toki7=='vilaplana' or selected_toki7=='la-mussara' or selected_toki7=='laleixar' or 
 			selected_toki7=='lalbiol' or selected_toki7=='alforja'):
 			
+			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2023]
 			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
 			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
 			filtered_2020 = tmp_tokia7[tmp_tokia7['Urtea'] == 2020]
@@ -184,6 +185,7 @@ with st.form('Taula7'):
 			batera = pd.concat([datuak_2022,datuak_2021,datuak_2020,datuak_2019], ignore_index=True, axis=1)
 			batera=batera.rename(columns = {0:'2022',1:'2021',2:'2020',3:'2019'})
 		else:
+			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2023]
 			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
 			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
 			filtered_2020 = tmp_tokia7[tmp_tokia7['Urtea'] == 2020]
