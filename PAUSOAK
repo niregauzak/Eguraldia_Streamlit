@@ -1,0 +1,35 @@
+Pausoak:
+
+1) Meteoprades-eko datuak, beti bezela egin:
+   cd  /home/joni/Garran_Ubuntu20/Eguraldia_R 
+   bash scraping_Prades.sh
+
+2) AEMET-en RAR Fitxeroak extraitu All_files direktorioan:
+   cd /home/joni/Garran_Ubuntu20/Eguraldia_R/Historikoak_Aemet/All_files
+   python 00-Extract_RAR.py (urteka egiten du, eskuz jarri urtea)  (ASTE PARE BAT BERANDUAGO)
+
+3) CVS generatu:
+   cd /home/joni/Garran_Ubuntu20/Eguraldia_R/Historikoak_Aemet
+   python 01-Create_CVS_AEMET.py
+        Scriptean, eskuz aldatu urtea (banaka egin behar dira)
+        Urte bakoitzerko, fitxero batean datuak txukun gordeta. Adibidez: Aemet_Datuak_Egunak_2022.csv
+
+4) Meteoprades datuak gehitu:
+   python 11-Add_Meteo.py
+         Datu guztiak CVS batean gorde: Denak_batera.csv
+
+5) CVS fitxeroa kopiatu Github-erantzat
+   cp Denak_batera.csv /home/joni/Garran_Ubuntu20/Eguraldia_R/Eguraldia_Streamlit
+
+6) Fitxeroa GitHub-era pasa:
+   cd /home/joni/Garran_Ubuntu20/Eguraldia_R/Eguraldia_Streamlit
+  
+   git init
+   git remote add origin https://github.com/niregauzak/Eguraldia_Streamlit.git
+   git add ./Denak_batera.csv
+ git commit -m 'uztaila'
+ git push origin main
+
+ Agian:
+ git config --global credential.credentialStore gpg
+
