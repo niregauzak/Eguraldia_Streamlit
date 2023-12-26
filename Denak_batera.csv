@@ -7533,7 +7533,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 13	4	2023	Reus	19.8	8.8	14.3	54.0	0.0
 13	4	2023	Tarragona	21.7	9.5	15.6	0.0	0.0
 13	4	2023	Vigo	12.8	5.5	9.2	24.0	6.3
-17	7	2023	Donostia / San Sebastián Aeropuerto	24.5	19.7	22.1	15.0	0.0
+17	7	2023	Donostia	24.5	19.7	22.1	15.0	0.0
 17	7	2023	Bilbo	26.2	17.9	22.1	22.0	0.0
 17	7	2023	Vitoria-Gasteiz Aeropuerto	26.9	15.5	21.2	23.0	0.0
 17	7	2023	Iruña	31.5	16.7	24.1	23.0	0.0
@@ -7541,7 +7541,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 17	7	2023	Reus	30.6	23.0	26.8	18.0	0.0
 17	7	2023	Tarragona	29.6	24.1	26.9	0.0	0.0
 17	7	2023	Vigo	29.3	12.4	20.8	20.0	0.0
-7	7	2023	Donostia / San Sebastián Aeropuerto	34.7	17.7	26.2	23.0	0.0
+7	7	2023	Donostia	34.7	17.7	26.2	23.0	0.0
 7	7	2023	Bilbo	33.7	16.1	24.9	24.0	3.1
 7	7	2023	Vitoria-Gasteiz Aeropuerto	30.3	12.6	21.4	21.0	0.4
 7	7	2023	Iruña	32.3	13.7	23.0	31.0	7.8
@@ -7557,7 +7557,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 8	3	2023	Reus	21.9	11.1	16.5	25.0	0.0
 8	3	2023	Tarragona	22.0	12.5	17.3	0.0	0.0
 8	3	2023	Vigo	15.2	11.9	13.5	40.0	20.4
-13	8	2023	Donostia / San Sebastián Aeropuerto	24.5	19.3	21.9	17.0	1.4
+13	8	2023	Donostia	24.5	19.3	21.9	17.0	1.4
 13	8	2023	Bilbo	23.8	18.4	21.1	13.0	0.2
 13	8	2023	Vitoria-Gasteiz Aeropuerto	25.8	17.3	21.5	29.0	0.0
 13	8	2023	Iruña	36.1	17.6	26.8	34.0	0.0
@@ -7581,7 +7581,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 8	6	2023	Reus	26.5	14.6	20.6	18.0	0.0
 8	6	2023	Tarragona	25.2	16.9	21.1	0.0	0.0
 8	6	2023	Vigo	23.6	16.4	20.0	31.0	34.0
-12	8	2023	Donostia / San Sebastián Aeropuerto	28.2	17.9	23.1	15.0	0.0
+12	8	2023	Donostia	28.2	17.9	23.1	15.0	0.0
 12	8	2023	Bilbo	28.4	16.0	22.2	26.0	0.0
 12	8	2023	Vitoria-Gasteiz Aeropuerto	28.4	10.6	19.5	33.0	0.0
 12	8	2023	Iruña	31.1	16.3	23.7	33.0	0.0
@@ -7589,6 +7589,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 12	8	2023	Reus	32.3	20.8	26.5	19.0	0.0
 12	8	2023	Tarragona	30.6	21.7	26.2	0.0	0.0
 12	8	2023	Vigo	24.8	17.4	21.1	25.0	0.1
+21	11	2023	Donostia	14.3	11.0	12.7	27.0	38.2
+21	11	2023	Bilbo	14.3	10.3	12.3	33.0	30.3
+21	11	2023	Vitoria-Gasteiz Aeropuerto	9.6	7.4	8.5	24.0	7.8
+21	11	2023	Iruña	10.1	7.8	9.0	25.0	25.3
+21	11	2023	Alforja	16.5	8.8	12.7	31.0	0.0
+21	11	2023	Reus	19.1	10.6	14.9	40.0	0.0
+21	11	2023	Tarragona	21.7	11.0	16.4	0.0	0.0
+21	11	2023	Vigo	13.4	6.2	9.8	24.0	0.0
 13	6	2023	Donostia	25.2	17.1	21.2	27.0	35.2
 13	6	2023	Bilbo	22.1	15.0	18.6	32.0	2.4
 13	6	2023	Gasteiz	22.2	10.4	16.3	27.0	0.6
@@ -7597,7 +7605,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 13	6	2023	Reus	28.5	18.0	23.3	29.0	2.2
 13	6	2023	Tarragona	26.7	18.7	22.7	0.0	2.8
 13	6	2023	Vigo	21.3	15.1	18.2	27.0	5.2
-9	8	2023	Donostia / San Sebastián Aeropuerto	33.8	16.3	25.0	21.0	0.0
+9	8	2023	Donostia	33.8	16.3	25.0	21.0	0.0
 9	8	2023	Bilbo	39.9	15.8	27.9	28.0	0.0
 9	8	2023	Vitoria-Gasteiz Aeropuerto	39.8	11.3	25.5	17.0	0.0
 9	8	2023	Iruña	39.8	14.2	27.0	22.0	0.0
@@ -7605,7 +7613,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	8	2023	Reus	30.7	21.9	26.3	19.0	0.0
 9	8	2023	Tarragona	29.3	24.0	26.6	0.0	0.0
 9	8	2023	Vigo	26.7	16.7	21.7	23.0	0.0
-18	8	2023	Donostia / San Sebastián Aeropuerto	31.7	21.6	26.7	13.0	0.0
+18	8	2023	Donostia	31.7	21.6	26.7	13.0	0.0
 18	8	2023	Bilbo	38.7	18.5	28.6	25.0	0.0
 18	8	2023	Vitoria-Gasteiz Aeropuerto	37.1	15.4	26.2	26.0	0.0
 18	8	2023	Iruña	38.3	18.5	28.4	24.0	0.0
@@ -7665,7 +7673,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	1	2023	Reus	9.3	-4.0	2.7	30.0	0.0
 23	1	2023	Tarragona	11.4	-0.6	5.4	0.0	0.0
 23	1	2023	Vigo	12.7	0.8	6.7	17.0	0.0
-26	7	2023	Donostia / San Sebastián Aeropuerto	25.0	16.2	20.6	17.0	0.0
+3	11	2023	Donostia	12.5	9.2	10.8	42.0	23.9
+3	11	2023	Bilbo	14.1	9.8	12.0	37.0	5.4
+3	11	2023	Vitoria-Gasteiz Aeropuerto	11.8	5.8	8.8	48.0	1.0
+3	11	2023	Iruña	12.5	7.2	9.8	43.0	1.1
+3	11	2023	Alforja	16.7	8.8	12.8	31.0	0.4
+3	11	2023	Reus	19.5	10.3	14.9	55.0	0.0
+3	11	2023	Tarragona	20.5	11.7	16.1	0.0	0.0
+3	11	2023	Vigo	14.7	10.3	12.5	32.0	33.6
+26	7	2023	Donostia	25.0	16.2	20.6	17.0	0.0
 26	7	2023	Bilbo	26.1	16.2	21.2	17.0	0.0
 26	7	2023	Vitoria-Gasteiz Aeropuerto	26.6	13.5	20.1	23.0	0.0
 26	7	2023	Iruña	26.1	13.5	19.8	28.0	0.0
@@ -7681,7 +7697,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	3	2023	Reus	19.0	9.5	14.3	15.0	0.0
 23	3	2023	Tarragona	17.9	12.2	15.0	0.0	0.0
 23	3	2023	Vigo	13.8	11.3	12.6	31.0	12.6
-30	9	2023	Donostia / San Sebastián Aeropuerto	29.4	17.7	23.6	12.0	0.0
+30	9	2023	Donostia	29.4	17.7	23.6	12.0	0.0
 30	9	2023	Bilbo	33.4	16.4	24.9	14.0	0.0
 30	9	2023	Vitoria-Gasteiz Aeropuerto	32.9	12.2	22.6	13.0	0.0
 30	9	2023	Iruña	30.8	12.8	21.8	7.0	0.0
@@ -7689,7 +7705,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 30	9	2023	Reus	29.5	15.4	22.4	13.0	0.0
 30	9	2023	Tarragona	28.1	18.5	23.3	0.0	0.0
 30	9	2023	Vigo	32.5	17.1	24.8	16.0	0.0
-1	8	2023	Donostia / San Sebastián Aeropuerto	25.4	18.1	21.8	21.0	1.1
+23	11	2023	Donostia	13.6	5.6	9.6	17.0	0.0
+23	11	2023	Bilbo	14.4	4.6	9.5	14.0	0.0
+23	11	2023	Vitoria-Gasteiz Aeropuerto	10.9	2.8	6.8	25.0	0.0
+23	11	2023	Iruña	10.2	4.4	7.3	37.0	0.0
+23	11	2023	Alforja	13.7	5.5	9.6	34.0	0.0
+23	11	2023	Reus	17.8	2.6	10.2	26.0	0.0
+23	11	2023	Tarragona	20.6	5.8	13.2	0.0	0.0
+23	11	2023	Vigo	17.3	5.9	11.6	18.0	0.0
+1	8	2023	Donostia	25.4	18.1	21.8	21.0	1.1
 1	8	2023	Bilbo	26.4	15.9	21.1	21.0	0.4
 1	8	2023	Vitoria-Gasteiz Aeropuerto	28.2	10.3	19.3	25.0	0.0
 1	8	2023	Iruña	28.5	13.8	21.2	30.0	0.0
@@ -7705,7 +7729,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 17	5	2023	Reus	26.2	10.8	18.5	36.0	0.0
 17	5	2023	Tarragona	24.4	11.3	17.8	0.0	0.0
 17	5	2023	Vigo	25.7	11.2	18.5	25.0	0.0
-13	7	2023	Donostia / San Sebastián Aeropuerto	24.4	18.7	21.6	15.0	4.4
+13	7	2023	Donostia	24.4	18.7	21.6	15.0	4.4
 13	7	2023	Bilbo	25.3	18.1	21.7	19.0	2.0
 13	7	2023	Vitoria-Gasteiz Aeropuerto	24.1	15.9	20.0	21.0	0.3
 13	7	2023	Iruña	27.1	17.0	22.1	28.0	0.0
@@ -7721,7 +7745,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	3	2023	Reus	19.2	7.4	13.3	18.0	0.0
 19	3	2023	Tarragona	18.5	10.0	14.3	0.0	0.0
 19	3	2023	Vigo	16.9	6.8	11.8	21.0	0.0
-21	8	2023	Donostia / San Sebastián Aeropuerto	28.9	21.7	25.3	15.0	0.0
+21	8	2023	Donostia	28.9	21.7	25.3	15.0	0.0
 21	8	2023	Bilbo	31.1	19.4	25.3	24.0	0.0
 21	8	2023	Vitoria-Gasteiz Aeropuerto	36.8	16.2	26.5	25.0	0.0
 21	8	2023	Iruña	40.4	18.6	29.5	24.0	0.0
@@ -7729,7 +7753,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 21	8	2023	Reus	37.7	23.1	30.4	18.0	0.0
 21	8	2023	Tarragona	35.2	24.0	29.6	0.0	0.0
 21	8	2023	Vigo	31.5	18.0	24.8	19.0	0.0
-20	7	2023	Donostia / San Sebastián Aeropuerto	24.0	19.1	21.6	14.0	0.0
+20	7	2023	Donostia	24.0	19.1	21.6	14.0	0.0
 20	7	2023	Bilbo	23.5	14.9	19.2	17.0	1.5
 20	7	2023	Vitoria-Gasteiz Aeropuerto	22.2	11.6	16.9	26.0	0.0
 20	7	2023	Iruña	26.9	15.3	21.1	36.0	0.0
@@ -7737,7 +7761,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 20	7	2023	Reus	30.4	23.1	26.8	0.0	0.0
 20	7	2023	Tarragona	30.4	23.1	26.8	0.0	0.0
 20	7	2023	Vigo	23.5	14.1	18.8	26.0	0.0
-18	7	2023	Donostia / San Sebastián Aeropuerto	25.3	19.2	22.3	18.0	0.0
+4	11	2023	Donostia	19.3	10.3	14.8	49.0	28.3
+4	11	2023	Bilbo	21.4	10.6	16.0	51.0	6.1
+4	11	2023	Vitoria-Gasteiz Aeropuerto	19.6	10.1	14.9	54.0	2.4
+4	11	2023	Iruña	17.5	7.6	12.5	47.0	16.2
+4	11	2023	Alforja	21.3	8.9	15.1	28.0	2.0
+4	11	2023	Reus	20.2	10.0	15.1	25.0	0.0
+4	11	2023	Tarragona	20.0	11.6	15.8	0.0	0.0
+4	11	2023	Vigo	16.6	11.8	14.2	46.0	61.3
+18	7	2023	Donostia	25.3	19.2	22.3	18.0	0.0
 18	7	2023	Bilbo	25.9	17.5	21.7	27.0	0.0
 18	7	2023	Vitoria-Gasteiz Aeropuerto	35.1	14.3	24.7	37.0	0.0
 18	7	2023	Iruña	37.1	17.4	27.2	39.0	0.0
@@ -7760,7 +7792,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 1	1	2023	Reus	16.7	5.8	11.3	14.0	0.0
 1	1	2023	Tarragona	16.4	9.7	13.0	0.0	0.0
 1	1	2023	Vigo	13.5	8.7	11.1	42.0	68.7
-13	10	2023	Donostia / San Sebastián Aeropuerto	31.0	17.9	24.4	30.0	0.2
+13	10	2023	Donostia	31.0	17.9	24.4	30.0	0.2
 13	10	2023	Bilbo	29.2	19.4	24.3	21.0	0.3
 13	10	2023	Vitoria-Gasteiz Aeropuerto	26.3	8.4	17.3	33.0	0.0
 13	10	2023	Iruña	28.4	9.9	19.1	34.0	1.3
@@ -7768,7 +7800,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 13	10	2023	Reus	26.1	16.6	21.4	22.0	0.0
 13	10	2023	Tarragona	26.5	18.1	22.3	0.0	0.0
 13	10	2023	Vigo	20.6	15.1	17.9	32.0	24.1
-12	10	2023	Donostia / San Sebastián Aeropuerto	31.5	13.2	22.3	13.0	0.0
+12	10	2023	Donostia	31.5	13.2	22.3	13.0	0.0
 12	10	2023	Bilbo	33.4	12.8	23.1	18.0	0.0
 12	10	2023	Vitoria-Gasteiz Aeropuerto	30.2	4.6	17.4	18.0	0.0
 12	10	2023	Iruña	28.6	8.8	18.7	10.0	0.0
@@ -7792,7 +7824,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 30	4	2023	Reus	27.5	15.0	21.3	24.0	0.0
 30	4	2023	Tarragona	26.7	14.6	20.7	0.0	0.0
 30	4	2023	Vigo	22.0	12.9	17.4	25.0	0.0
-25	6	2023	Donostia / San Sebastián Aeropuerto	22.8	19.2	21.0	17.0	0.0
+25	6	2023	Donostia	22.8	19.2	21.0	17.0	0.0
 25	6	2023	Bilbo	25.1	19.0	22.1	26.0	0.0
 25	6	2023	Vitoria-Gasteiz Aeropuerto	28.1	12.4	20.3	33.0	0.0
 25	6	2023	Iruña	32.4	15.2	23.8	38.0	0.0
@@ -7800,7 +7832,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	6	2023	Reus	30.6	19.3	24.9	18.0	0.0
 25	6	2023	Tarragona	29.2	20.6	24.9	0.0	0.0
 25	6	2023	Vigo	28.1	15.9	22.0	24.0	0.0
-28	9	2023	Donostia / San Sebastián Aeropuerto	28.3	15.1	21.7	18.0	0.0
+28	9	2023	Donostia	28.3	15.1	21.7	18.0	0.0
 28	9	2023	Bilbo	30.8	14.6	22.7	18.0	0.0
 28	9	2023	Vitoria-Gasteiz Aeropuerto	31.3	8.3	19.8	23.0	0.0
 28	9	2023	Iruña	30.0	11.8	20.9	10.0	0.0
@@ -7816,7 +7848,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	3	2023	Reus	26.0	16.6	21.3	51.0	0.0
 11	3	2023	Tarragona	27.1	17.2	22.2	0.0	0.0
 11	3	2023	Vigo	14.9	13.2	14.0	22.0	10.4
-24	10	2023	Donostia / San Sebastián Aeropuerto	20.0	10.8	15.4	36.0	3.9
+24	10	2023	Donostia	20.0	10.8	15.4	36.0	3.9
 24	10	2023	Bilbo	20.6	9.8	15.2	42.0	0.0
 24	10	2023	Vitoria-Gasteiz Aeropuerto	16.6	7.4	12.0	40.0	0.0
 24	10	2023	Iruña	17.6	8.8	13.2	24.0	1.2
@@ -7847,7 +7879,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 31	1	2023	Reus	15.9	-2.0	6.9	33.0	0.0
 31	1	2023	Tarragona	17.3	1.2	9.2	0.0	0.0
 31	1	2023	Vigo	12.9	1.1	7.0	14.0	0.0
-2	9	2023	Donostia / San Sebastián Aeropuerto	20.4	16.4	18.4	24.0	27.6
+2	9	2023	Donostia	20.4	16.4	18.4	24.0	27.6
 2	9	2023	Bilbo	22.3	16.3	19.3	19.0	4.0
 2	9	2023	Vitoria-Gasteiz Aeropuerto	19.3	12.7	16.0	21.0	14.3
 2	9	2023	Iruña	16.2	13.5	14.9	31.0	71.6
@@ -7878,7 +7910,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	2	2023	Reus	18.4	-0.3	9.0	19.0	0.0
 5	2	2023	Tarragona	19.2	5.4	12.3	0.0	0.0
 5	2	2023	Vigo	15.5	3.1	9.3	21.0	0.0
-28	8	2023	Donostia / San Sebastián Aeropuerto	22.4	17.0	19.7	27.0	40.4
+28	8	2023	Donostia	22.4	17.0	19.7	27.0	40.4
 28	8	2023	Bilbo	19.5	13.1	16.3	0.0	0.0
 28	8	2023	Vitoria-Gasteiz Aeropuerto	19.5	13.1	16.3	27.0	3.2
 28	8	2023	Iruña	21.7	13.5	17.6	35.0	5.4
@@ -7886,7 +7918,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 28	8	2023	Reus	31.3	16.9	24.1	48.0	0.0
 28	8	2023	Tarragona	32.9	17.6	25.3	0.0	0.0
 28	8	2023	Vigo	23.0	14.2	18.6	23.0	0.0
-10	10	2023	Donostia / San Sebastián Aeropuerto	24.1	12.6	18.4	17.0	0.0
+10	10	2023	Donostia	24.1	12.6	18.4	17.0	0.0
 10	10	2023	Bilbo	30.2	11.1	20.7	14.0	0.0
 10	10	2023	Vitoria-Gasteiz Aeropuerto	29.5	1.5	15.5	14.0	0.0
 10	10	2023	Iruña	28.3	9.8	19.0	9.0	0.0
@@ -7894,7 +7926,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	10	2023	Reus	27.1	17.2	22.2	20.0	0.0
 10	10	2023	Tarragona	27.1	17.2	22.2	0.0	0.0
 10	10	2023	Vigo	29.2	16.5	22.9	15.0	0.0
-9	9	2023	Donostia / San Sebastián Aeropuerto	33.6	20.9	27.2	21.0	0.1
+9	9	2023	Donostia	33.6	20.9	27.2	21.0	0.1
 9	9	2023	Bilbo	33.8	20.7	27.3	31.0	0.0
 9	9	2023	Vitoria-Gasteiz Aeropuerto	31.2	17.7	24.5	21.0	0.8
 9	9	2023	Iruña	32.7	17.0	24.9	32.0	7.4
@@ -7902,6 +7934,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	9	2023	Reus	28.4	16.6	22.5	17.0	0.0
 9	9	2023	Tarragona	27.1	17.5	22.3	0.0	0.0
 9	9	2023	Vigo	22.6	15.6	19.1	30.0	25.1
+29	11	2023	Donostia	20.1	10.0	15.1	24.0	1.3
+29	11	2023	Bilbo	21.1	9.6	15.4	27.0	0.6
+29	11	2023	Vitoria-Gasteiz Aeropuerto	16.6	9.6	13.1	43.0	0.5
+29	11	2023	Iruña	15.0	9.0	12.0	18.0	0.5
+29	11	2023	Alforja	18.9	7.3	13.1	16.0	0.0
+29	11	2023	Reus	18.6	8.5	13.6	13.0	0.0
+29	11	2023	Tarragona	18.6	11.2	14.9	0.0	0.0
+29	11	2023	Vigo	15.5	12.2	13.8	27.0	25.8
 23	2	2023	Donostia	12.1	6.2	9.2	30.0	52.5
 23	2	2023	Bilbo	9.6	4.5	7.1	35.0	35.1
 23	2	2023	Gasteiz	7.0	0.6	3.8	24.0	17.4
@@ -7910,6 +7950,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	2	2023	Reus	12.3	7.8	10.1	25.0	9.0
 23	2	2023	Tarragona	13.1	9.3	11.2	0.0	7.8
 23	2	2023	Vigo	9.5	2.0	5.8	24.0	3.0
+8	11	2023	Donostia	18.7	6.1	12.4	33.0	0.2
+8	11	2023	Bilbo	18.4	6.4	12.4	27.0	1.5
+8	11	2023	Vitoria-Gasteiz Aeropuerto	12.8	1.7	7.3	34.0	0.7
+8	11	2023	Iruña	15.2	2.6	8.9	25.0	0.0
+8	11	2023	Alforja	16.9	5.4	11.1	27.0	0.0
+8	11	2023	Reus	18.3	3.3	10.8	26.0	0.0
+8	11	2023	Tarragona	18.7	6.5	12.6	0.0	0.0
+8	11	2023	Vigo	14.9	9.8	12.3	28.0	26.4
 4	5	2023	Donostia	22.6	15.7	19.2	27.0	0.0
 4	5	2023	Bilbo	26.4	14.2	20.3	28.0	0.0
 4	5	2023	Gasteiz	25.0	9.5	17.3	38.0	0.0
@@ -7918,7 +7966,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 4	5	2023	Reus	23.1	13.2	18.2	20.0	0.0
 4	5	2023	Tarragona	22.0	15.8	18.9	0.0	0.0
 4	5	2023	Vigo	19.0	13.2	16.1	29.0	7.6
-29	8	2023	Donostia / San Sebastián Aeropuerto	22.4	17.4	19.9	19.0	2.2
+29	8	2023	Donostia	22.4	17.4	19.9	19.0	2.2
 29	8	2023	Bilbo	24.0	14.4	19.2	22.0	10.7
 29	8	2023	Vitoria-Gasteiz Aeropuerto	22.3	13.8	18.0	25.0	0.0
 29	8	2023	Iruña	22.4	13.8	18.1	29.0	0.3
@@ -7926,7 +7974,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 29	8	2023	Reus	30.9	19.5	25.2	36.0	0.0
 29	8	2023	Tarragona	32.7	19.3	26.0	0.0	0.0
 29	8	2023	Vigo	24.2	15.4	19.8	24.0	0.0
-28	7	2023	Donostia / San Sebastián Aeropuerto	27.0	17.3	22.1	15.0	0.0
+28	7	2023	Donostia	27.0	17.3	22.1	15.0	0.0
 28	7	2023	Bilbo	31.5	16.9	24.2	22.0	0.0
 28	7	2023	Vitoria-Gasteiz Aeropuerto	31.1	11.3	21.2	28.0	0.0
 28	7	2023	Iruña	32.8	15.8	24.3	25.0	0.0
@@ -7941,7 +7989,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	1	2023	Reus	14.2	3.3	8.7	36.0	0.0
 25	1	2023	Tarragona	15.6	3.7	9.7	0.0	0.0
 25	1	2023	Vigo	12.3	1.1	6.7	21.0	0.0
-14	7	2023	Donostia / San Sebastián Aeropuerto	37.0	17.3	27.1	19.0	0.0
+14	7	2023	Donostia	37.0	17.3	27.1	19.0	0.0
 14	7	2023	Bilbo	34.7	16.3	25.5	26.0	0.0
 14	7	2023	Vitoria-Gasteiz Aeropuerto	36.6	10.9	23.7	39.0	0.0
 14	7	2023	Iruña	36.6	14.3	25.4	36.0	0.0
@@ -7949,6 +7997,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	7	2023	Reus	31.1	24.0	27.6	23.0	0.0
 14	7	2023	Tarragona	30.4	25.3	27.8	0.0	0.0
 14	7	2023	Vigo	20.0	14.4	17.2	22.0	2.5
+11	11	2023	Donostia	19.5	11.9	15.7	22.0	15.1
+11	11	2023	Bilbo	19.0	12.3	15.7	13.0	13.2
+11	11	2023	Vitoria-Gasteiz Aeropuerto	19.2	11.5	15.4	40.0	6.2
+11	11	2023	Iruña	15.8	10.1	13.0	21.0	6.8
+11	11	2023	Alforja	18.8	11.4	15.1	19.0	0.0
+11	11	2023	Reus	21.4	12.9	17.1	21.0	0.0
+11	11	2023	Tarragona	23.1	14.7	18.9	0.0	0.0
+11	11	2023	Vigo	17.7	15.6	16.7	31.0	26.4
 8	2	2023	Donostia	12.8	1.0	6.9	18.0	0.0
 8	2	2023	Bilbo	14.9	0.5	7.7	17.0	0.0
 8	2	2023	Gasteiz	11.8	0.9	6.4	19.0	0.0
@@ -7965,7 +8021,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 12	4	2023	Reus	28.6	9.9	19.3	45.0	0.0
 12	4	2023	Tarragona	29.5	12.1	20.8	0.0	0.0
 12	4	2023	Vigo	13.7	7.9	10.8	24.0	10.5
-22	8	2023	Donostia / San Sebastián Aeropuerto	28.3	22.4	25.3	15.0	0.0
+22	8	2023	Donostia	28.3	22.4	25.3	15.0	0.0
 22	8	2023	Bilbo	31.3	20.2	25.8	19.0	0.0
 22	8	2023	Vitoria-Gasteiz Aeropuerto	33.6	16.0	24.8	21.0	0.0
 22	8	2023	Iruña	39.4	19.7	29.6	25.0	0.0
@@ -7973,7 +8029,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 22	8	2023	Reus	36.0	23.9	29.9	18.0	0.0
 22	8	2023	Tarragona	33.7	24.8	29.3	0.0	0.0
 22	8	2023	Vigo	36.7	21.2	29.0	15.0	0.0
-15	8	2023	Donostia / San Sebastián Aeropuerto	24.7	18.2	21.5	15.0	2.9
+15	8	2023	Donostia	24.7	18.2	21.5	15.0	2.9
 15	8	2023	Bilbo	25.9	18.5	22.2	18.0	0.0
 15	8	2023	Vitoria-Gasteiz Aeropuerto	27.3	15.5	21.4	32.0	0.0
 15	8	2023	Iruña	33.5	17.9	25.7	37.0	1.0
@@ -7996,7 +8052,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	2	2023	Reus	17.9	-1.0	8.4	13.0	0.0
 2	2	2023	Tarragona	18.6	4.2	11.4	0.0	0.0
 2	2	2023	Vigo	15.0	2.0	8.5	20.0	0.0
-16	10	2023	Donostia / San Sebastián Aeropuerto	26.2	14.8	20.5	17.0	0.1
+16	10	2023	Donostia	26.2	14.8	20.5	17.0	0.1
 16	10	2023	Bilbo	25.9	15.2	20.5	19.0	0.1
 16	10	2023	Vitoria-Gasteiz Aeropuerto	21.8	13.0	17.4	20.0	1.0
 16	10	2023	Iruña	21.2	13.3	17.3	17.0	0.3
@@ -8004,7 +8060,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 16	10	2023	Reus	20.8	17.5	19.1	15.0	13.3
 16	10	2023	Tarragona	21.8	17.8	19.8	0.0	15.8
 16	10	2023	Vigo	20.2	16.2	18.2	23.0	13.6
-29	6	2023	Donostia / San Sebastián Aeropuerto	24.5	19.8	22.1	22.0	0.8
+29	6	2023	Donostia	24.5	19.8	22.1	22.0	0.8
 29	6	2023	Bilbo	23.7	16.0	19.9	31.0	7.6
 29	6	2023	Vitoria-Gasteiz Aeropuerto	22.4	9.3	15.8	27.0	2.0
 29	6	2023	Iruña	24.5	15.6	20.1	37.0	0.7
@@ -8019,7 +8075,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 12	1	2023	Reus	17.7	2.0	9.9	23.0	0.0
 12	1	2023	Tarragona	17.3	5.9	11.6	0.0	0.0
 12	1	2023	Vigo	9.9	5.0	7.4	16.0	0.1
-20	10	2023	Donostia / San Sebastián Aeropuerto	18.4	14.3	16.3	42.0	13.4
+22	11	2023	Donostia	13.6	9.8	11.7	27.0	0.6
+22	11	2023	Bilbo	14.8	9.3	12.1	26.0	4.4
+22	11	2023	Vitoria-Gasteiz Aeropuerto	10.8	6.7	8.8	30.0	9.7
+22	11	2023	Iruña	10.7	7.3	9.0	50.0	0.0
+22	11	2023	Alforja	18.4	7.9	13.1	27.0	0.0
+22	11	2023	Reus	20.0	8.9	14.4	38.0	0.0
+22	11	2023	Tarragona	21.7	8.8	15.3	0.0	0.0
+22	11	2023	Vigo	15.7	5.7	10.7	23.0	0.0
+20	10	2023	Donostia	18.4	14.3	16.3	42.0	13.4
 20	10	2023	Bilbo	18.6	13.8	16.2	42.0	3.4
 20	10	2023	Vitoria-Gasteiz Aeropuerto	15.9	9.6	12.8	43.0	3.2
 20	10	2023	Iruña	17.0	10.2	13.6	36.0	3.5
@@ -8027,7 +8091,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 20	10	2023	Reus	23.3	13.8	18.5	36.0	1.4
 20	10	2023	Tarragona	23.7	14.3	19.0	0.0	1.8
 20	10	2023	Vigo	15.5	10.2	12.8	29.0	39.0
-21	9	2023	Donostia / San Sebastián Aeropuerto	24.2	15.3	19.8	29.0	27.1
+21	9	2023	Donostia	24.2	15.3	19.8	29.0	27.1
 21	9	2023	Bilbo	24.9	15.4	20.1	35.0	9.1
 21	9	2023	Vitoria-Gasteiz Aeropuerto	20.0	12.3	16.2	35.0	8.5
 21	9	2023	Iruña	19.7	12.4	16.1	25.0	10.1
@@ -8035,7 +8099,23 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 21	9	2023	Reus	27.8	16.3	22.0	22.0	0.0
 21	9	2023	Tarragona	27.6	17.3	22.4	0.0	0.0
 21	9	2023	Vigo	18.6	13.4	16.0	32.0	23.9
-19	7	2023	Donostia / San Sebastián Aeropuerto	23.6	19.2	21.4	15.0	0.0
+18	11	2023	Donostia	22.3	8.1	15.2	15.0	0.0
+18	11	2023	Bilbo	21.2	9.6	15.4	14.0	0.0
+18	11	2023	Vitoria-Gasteiz Aeropuerto	20.4	2.2	11.3	21.0	0.0
+18	11	2023	Iruña	17.9	3.7	10.8	9.0	0.0
+18	11	2023	Alforja	21.6	6.0	13.8	15.0	0.0
+18	11	2023	Reus	19.3	7.5	13.4	15.0	0.0
+18	11	2023	Tarragona	20.0	10.9	15.4	0.0	0.0
+18	11	2023	Vigo	18.5	12.8	15.7	14.0	0.0
+30	11	2023	Donostia	17.6	10.2	13.9	25.0	32.6
+30	11	2023	Bilbo	15.8	9.5	12.7	25.0	33.2
+30	11	2023	Vitoria-Gasteiz Aeropuerto	15.4	7.5	11.4	34.0	41.6
+30	11	2023	Iruña	14.7	8.1	11.4	29.0	26.8
+30	11	2023	Alforja	21.4	8.5	14.9	13.0	0.2
+30	11	2023	Reus	22.0	7.7	14.8	14.0	0.0
+30	11	2023	Tarragona	21.8	10.5	16.1	0.0	0.0
+30	11	2023	Vigo	12.3	6.8	9.6	17.0	21.8
+19	7	2023	Donostia	23.6	19.2	21.4	15.0	0.0
 19	7	2023	Bilbo	24.3	16.9	20.6	16.0	0.0
 19	7	2023	Vitoria-Gasteiz Aeropuerto	23.6	16.4	20.0	29.0	0.0
 19	7	2023	Iruña	26.8	17.2	22.0	37.0	0.0
@@ -8043,7 +8123,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	7	2023	Reus	34.7	24.0	29.4	19.0	0.0
 19	7	2023	Tarragona	32.6	24.6	28.6	0.0	0.0
 19	7	2023	Vigo	29.6	14.7	22.2	20.0	0.0
-1	7	2023	Donostia / San Sebastián Aeropuerto	22.4	17.6	20.0	21.0	1.4
+1	7	2023	Donostia	22.4	17.6	20.0	21.0	1.4
 1	7	2023	Bilbo	24.5	17.2	20.9	25.0	0.0
 1	7	2023	Vitoria-Gasteiz Aeropuerto	24.7	14.5	19.6	24.0	0.0
 1	7	2023	Iruña	24.7	15.4	20.1	32.0	0.0
@@ -8051,7 +8131,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 1	7	2023	Reus	30.3	16.2	23.3	30.0	0.0
 1	7	2023	Tarragona	27.9	17.3	22.6	0.0	0.0
 1	7	2023	Vigo	28.2	14.5	21.4	28.0	0.0
-31	7	2023	Donostia / San Sebastián Aeropuerto	25.6	15.8	20.7	18.0	0.0
+31	7	2023	Donostia	25.6	15.8	20.7	18.0	0.0
 31	7	2023	Bilbo	27.1	14.4	20.8	20.0	0.0
 31	7	2023	Vitoria-Gasteiz Aeropuerto	28.5	10.2	19.3	30.0	0.0
 31	7	2023	Iruña	31.0	12.2	21.6	30.0	0.0
@@ -8066,7 +8146,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 18	1	2023	Reus	12.1	3.6	7.9	61.0	0.0
 18	1	2023	Tarragona	14.2	6.3	10.3	0.0	0.0
 18	1	2023	Vigo	9.0	2.4	5.7	31.0	3.9
-9	7	2023	Donostia / San Sebastián Aeropuerto	25.8	20.7	23.3	15.0	0.1
+9	7	2023	Donostia	25.8	20.7	23.3	15.0	0.1
 9	7	2023	Bilbo	24.4	18.6	21.5	23.0	0.0
 9	7	2023	Vitoria-Gasteiz Aeropuerto	27.1	16.0	21.6	28.0	0.0
 9	7	2023	Iruña	32.7	18.6	25.7	35.0	0.0
@@ -8074,7 +8154,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	7	2023	Reus	32.0	19.7	25.9	17.0	0.0
 9	7	2023	Tarragona	29.5	21.4	25.4	0.0	0.0
 9	7	2023	Vigo	22.2	13.8	18.0	19.0	0.0
-4	8	2023	Donostia / San Sebastián Aeropuerto	22.6	16.1	19.4	24.0	18.2
+4	8	2023	Donostia	22.6	16.1	19.4	24.0	18.2
 4	8	2023	Bilbo	22.2	15.9	19.1	31.0	8.0
 4	8	2023	Vitoria-Gasteiz Aeropuerto	20.2	11.0	15.6	30.0	0.0
 4	8	2023	Iruña	21.9	13.0	17.4	41.0	0.5
@@ -8090,7 +8170,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	4	2023	Reus	20.1	9.3	14.7	20.0	0.0
 11	4	2023	Tarragona	19.9	11.7	15.8	0.0	0.0
 11	4	2023	Vigo	16.6	10.6	13.6	28.0	1.1
-13	9	2023	Donostia / San Sebastián Aeropuerto	24.2	17.8	21.0	15.0	1.9
+13	9	2023	Donostia	24.2	17.8	21.0	15.0	1.9
 13	9	2023	Bilbo	21.6	17.1	19.4	17.0	0.6
 13	9	2023	Vitoria-Gasteiz Aeropuerto	22.2	13.3	17.8	23.0	0.0
 13	9	2023	Iruña	24.7	15.0	19.9	27.0	0.0
@@ -8106,7 +8186,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	3	2023	Reus	12.0	-2.2	4.9	26.0	0.0
 2	3	2023	Tarragona	13.3	1.2	7.3	0.0	0.0
 2	3	2023	Vigo	13.9	-0.5	6.7	23.0	0.0
-19	8	2023	Donostia / San Sebastián Aeropuerto	28.1	21.6	24.9	19.0	0.0
+19	8	2023	Donostia	28.1	21.6	24.9	19.0	0.0
 19	8	2023	Bilbo	32.8	19.8	26.3	25.0	0.0
 19	8	2023	Vitoria-Gasteiz Aeropuerto	37.0	15.1	26.1	26.0	0.0
 19	8	2023	Iruña	37.7	17.8	27.8	21.0	0.0
@@ -8122,7 +8202,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 26	4	2023	Reus	20.8	11.9	16.3	19.0	0.0
 26	4	2023	Tarragona	20.3	12.9	16.6	0.0	0.0
 26	4	2023	Vigo	20.2	14.1	17.2	20.0	0.0
-23	7	2023	Donostia / San Sebastián Aeropuerto	26.9	20.1	23.5	15.0	0.0
+23	7	2023	Donostia	26.9	20.1	23.5	15.0	0.0
 23	7	2023	Bilbo	26.4	14.1	20.3	18.0	0.0
 23	7	2023	Vitoria-Gasteiz Aeropuerto	33.7	9.0	21.4	31.0	0.0
 23	7	2023	Iruña	35.7	14.6	25.2	31.0	0.0
@@ -8130,7 +8210,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	7	2023	Reus	31.1	23.2	27.2	18.0	0.0
 23	7	2023	Tarragona	30.3	23.8	27.0	0.0	0.0
 23	7	2023	Vigo	23.7	12.8	18.3	25.0	1.8
-17	6	2023	Donostia / San Sebastián Aeropuerto	25.5	19.8	22.6	21.0	13.3
+17	6	2023	Donostia	25.5	19.8	22.6	21.0	13.3
 17	6	2023	Bilbo	24.2	17.7	21.0	20.0	0.8
 17	6	2023	Vitoria-Gasteiz Aeropuerto	31.3	13.9	22.6	28.0	13.9
 17	6	2023	Iruña	34.2	16.1	25.2	55.0	5.7
@@ -8138,7 +8218,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 17	6	2023	Reus	28.9	20.3	24.6	18.0	0.0
 17	6	2023	Tarragona	27.0	20.0	23.5	0.0	0.0
 17	6	2023	Vigo	22.8	16.6	19.7	28.0	0.0
-16	6	2023	Donostia / San Sebastián Aeropuerto	25.9	15.4	20.6	21.0	0.0
+16	6	2023	Donostia	25.9	15.4	20.6	21.0	0.0
 16	6	2023	Bilbo	30.6	13.3	22.0	21.0	0.0
 16	6	2023	Vitoria-Gasteiz Aeropuerto	31.3	9.1	20.2	18.0	0.0
 16	6	2023	Iruña	31.5	11.1	21.3	12.0	0.0
@@ -8169,7 +8249,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 12	2	2023	Reus	13.2	-0.5	6.3	0.0	0.0
 12	2	2023	Tarragona	13.5	4.7	9.1	0.0	0.0
 12	2	2023	Vigo	16.8	3.7	10.2	20.0	0.0
-14	9	2023	Donostia / San Sebastián Aeropuerto	25.4	18.4	21.9	22.0	0.0
+14	9	2023	Donostia	25.4	18.4	21.9	22.0	0.0
 14	9	2023	Bilbo	26.1	17.2	21.7	14.0	0.0
 14	9	2023	Vitoria-Gasteiz Aeropuerto	27.8	14.0	20.9	19.0	0.0
 14	9	2023	Iruña	28.2	12.7	20.5	13.0	0.0
@@ -8185,7 +8265,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 20	5	2023	Reus	24.5	11.7	18.1	28.0	2.1
 20	5	2023	Tarragona	25.6	12.2	18.9	0.0	3.4
 20	5	2023	Vigo	22.4	9.9	16.1	28.0	0.6
-22	6	2023	Donostia / San Sebastián Aeropuerto	24.5	18.2	21.4	18.0	54.8
+5	11	2023	Donostia	19.8	11.6	15.7	33.0	5.7
+5	11	2023	Bilbo	19.3	8.7	14.0	36.0	3.6
+5	11	2023	Vitoria-Gasteiz Aeropuerto	15.4	8.5	11.9	48.0	0.4
+5	11	2023	Iruña	15.6	9.0	12.3	45.0	0.0
+5	11	2023	Alforja	18.3	11.9	15.1	31.0	0.0
+5	11	2023	Reus	20.8	8.9	14.8	42.0	0.0
+5	11	2023	Tarragona	22.6	12.4	17.5	0.0	0.0
+5	11	2023	Vigo	14.0	9.7	11.8	27.0	36.2
+22	6	2023	Donostia	24.5	18.2	21.4	18.0	54.8
 22	6	2023	Bilbo	25.1	17.8	21.4	15.0	3.3
 22	6	2023	Vitoria-Gasteiz Aeropuerto	24.4	15.2	19.8	22.0	0.5
 22	6	2023	Iruña	24.4	15.6	20.0	26.0	0.5
@@ -8193,7 +8281,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 22	6	2023	Reus	34.1	20.6	27.3	30.0	0.0
 22	6	2023	Tarragona	36.2	21.2	28.7	0.0	0.0
 22	6	2023	Vigo	24.6	14.5	19.6	23.0	0.0
-28	6	2023	Donostia / San Sebastián Aeropuerto	24.9	18.7	21.8	14.0	0.0
+28	6	2023	Donostia	24.9	18.7	21.8	14.0	0.0
 28	6	2023	Bilbo	25.7	16.3	21.0	18.0	0.0
 28	6	2023	Vitoria-Gasteiz Aeropuerto	23.5	15.8	19.7	25.0	0.0
 28	6	2023	Iruña	28.4	16.1	22.3	33.0	0.0
@@ -8233,7 +8321,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 7	3	2023	Reus	21.4	2.8	12.1	35.0	0.0
 7	3	2023	Tarragona	21.2	6.5	13.9	0.0	0.0
 7	3	2023	Vigo	13.7	10.2	11.9	29.0	10.8
-27	8	2023	Donostia / San Sebastián Aeropuerto	22.3	15.3	18.8	27.0	13.4
+27	8	2023	Donostia	22.3	15.3	18.8	27.0	13.4
 27	8	2023	Bilbo	22.1	15.1	18.6	32.0	16.6
 27	8	2023	Vitoria-Gasteiz Aeropuerto	18.4	12.5	15.4	27.0	6.9
 27	8	2023	Iruña	19.6	12.7	16.2	44.0	3.7
@@ -8241,7 +8329,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 27	8	2023	Reus	24.7	15.9	20.3	39.0	2.6
 27	8	2023	Tarragona	27.0	16.9	21.9	0.0	5.6
 27	8	2023	Vigo	23.0	12.8	17.9	20.0	0.0
-22	9	2023	Donostia / San Sebastián Aeropuerto	18.3	14.0	16.1	28.0	17.8
+22	9	2023	Donostia	18.3	14.0	16.1	28.0	17.8
 22	9	2023	Bilbo	18.1	12.0	15.1	22.0	11.5
 22	9	2023	Vitoria-Gasteiz Aeropuerto	18.2	7.1	12.7	26.0	0.1
 22	9	2023	Iruña	19.4	9.3	14.3	25.0	0.2
@@ -8280,7 +8368,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	6	2023	Reus	30.6	16.6	23.6	26.0	0.0
 14	6	2023	Tarragona	29.2	17.5	23.4	0.0	0.0
 14	6	2023	Vigo	23.3	15.0	19.1	21.0	0.0
-26	9	2023	Donostia / San Sebastián Aeropuerto	24.7	14.5	19.6	16.0	0.0
+26	9	2023	Donostia	24.7	14.5	19.6	16.0	0.0
 26	9	2023	Bilbo	25.3	13.5	19.4	18.0	0.0
 26	9	2023	Vitoria-Gasteiz Aeropuerto	26.7	7.5	17.1	24.0	0.0
 26	9	2023	Iruña	27.6	10.4	19.0	23.0	0.0
@@ -8304,7 +8392,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 3	3	2023	Reus	15.9	-0.4	7.7	30.0	0.0
 3	3	2023	Tarragona	17.9	2.3	10.1	0.0	0.0
 3	3	2023	Vigo	13.7	1.5	7.6	18.0	0.0
-29	9	2023	Donostia / San Sebastián Aeropuerto	25.7	16.0	20.9	16.0	0.0
+29	9	2023	Donostia	25.7	16.0	20.9	16.0	0.0
 29	9	2023	Bilbo	29.0	14.6	21.8	18.0	0.0
 29	9	2023	Vitoria-Gasteiz Aeropuerto	30.4	9.2	19.8	23.0	0.0
 29	9	2023	Iruña	30.5	12.6	21.6	20.0	0.0
@@ -8312,7 +8400,23 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 29	9	2023	Reus	29.2	16.6	22.9	13.0	0.0
 29	9	2023	Tarragona	28.2	19.2	23.7	0.0	0.0
 29	9	2023	Vigo	28.3	16.1	22.2	16.0	0.0
-6	7	2023	Donostia / San Sebastián Aeropuerto	25.8	18.9	22.3	17.0	0.0
+19	11	2023	Donostia	21.4	8.5	14.9	11.0	0.0
+19	11	2023	Bilbo	21.1	8.6	14.9	13.0	0.0
+19	11	2023	Vitoria-Gasteiz Aeropuerto	19.7	2.1	10.9	12.0	0.0
+19	11	2023	Iruña	18.6	3.1	10.9	8.0	0.0
+19	11	2023	Alforja	23.8	7.4	15.6	9.0	0.0
+19	11	2023	Reus	20.1	6.8	13.5	12.0	0.0
+19	11	2023	Tarragona	19.0	9.9	14.4	0.0	0.0
+19	11	2023	Vigo	17.3	10.7	14.0	16.0	0.0
+2	11	2023	Donostia	23.2	8.8	16.0	65.0	68.6
+2	11	2023	Bilbo	23.0	7.6	15.3	57.0	23.2
+2	11	2023	Vitoria-Gasteiz Aeropuerto	17.1	5.3	11.2	69.0	15.5
+2	11	2023	Iruña	17.4	6.9	12.1	40.0	18.5
+2	11	2023	Alforja	22.7	9.6	16.2	33.0	3.6
+2	11	2023	Reus	20.7	12.0	16.4	50.0	0.5
+2	11	2023	Tarragona	21.6	12.9	17.3	0.0	2.0
+2	11	2023	Vigo	16.7	8.7	12.7	0.0	0.0
+6	7	2023	Donostia	25.8	18.9	22.3	17.0	0.0
 6	7	2023	Bilbo	26.1	15.8	21.0	17.0	1.2
 6	7	2023	Vitoria-Gasteiz Aeropuerto	29.0	14.0	21.5	33.0	28.1
 6	7	2023	Iruña	29.0	14.8	21.9	35.0	29.6
@@ -8320,7 +8424,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 6	7	2023	Reus	28.2	20.9	24.6	28.0	0.0
 6	7	2023	Tarragona	27.6	21.8	24.7	0.0	0.0
 6	7	2023	Vigo	23.5	13.8	18.7	24.0	0.0
-30	8	2023	Donostia / San Sebastián Aeropuerto	22.9	16.3	19.6	26.0	17.5
+30	8	2023	Donostia	22.9	16.3	19.6	26.0	17.5
 30	8	2023	Bilbo	22.8	15.6	19.2	28.0	10.7
 30	8	2023	Vitoria-Gasteiz Aeropuerto	22.3	11.7	17.0	32.0	0.4
 30	8	2023	Iruña	23.1	12.6	17.9	34.0	0.0
@@ -8344,7 +8448,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	4	2023	Reus	23.6	13.7	18.7	0.0	0.0
 25	4	2023	Tarragona	23.6	13.7	18.7	0.0	0.0
 25	4	2023	Vigo	19.0	12.1	15.6	17.0	0.0
-24	6	2023	Donostia / San Sebastián Aeropuerto	26.8	17.1	21.9	16.0	0.0
+24	6	2023	Donostia	26.8	17.1	21.9	16.0	0.0
 24	6	2023	Bilbo	31.0	16.3	23.6	15.0	0.0
 24	6	2023	Vitoria-Gasteiz Aeropuerto	32.0	9.8	20.9	15.0	0.0
 24	6	2023	Iruña	32.6	13.2	22.9	18.0	0.0
@@ -8352,7 +8456,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	6	2023	Reus	30.6	21.9	26.3	19.0	0.0
 24	6	2023	Tarragona	29.3	23.2	26.3	0.0	0.0
 24	6	2023	Vigo	28.2	18.3	23.3	24.0	0.0
-21	7	2023	Donostia / San Sebastián Aeropuerto	24.2	17.9	21.1	16.0	9.5
+21	7	2023	Donostia	24.2	17.9	21.1	16.0	9.5
 21	7	2023	Bilbo	24.6	16.5	20.6	19.0	0.9
 21	7	2023	Vitoria-Gasteiz Aeropuerto	22.8	11.8	17.3	30.0	0.0
 21	7	2023	Iruña	24.5	15.3	19.9	31.0	0.0
@@ -8360,7 +8464,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 21	7	2023	Reus	33.0	23.9	28.4	26.0	0.0
 21	7	2023	Tarragona	31.3	24.5	27.9	0.0	0.0
 21	7	2023	Vigo	23.7	15.2	19.5	23.0	0.0
-29	7	2023	Donostia / San Sebastián Aeropuerto	27.6	19.3	23.4	26.0	1.5
+29	7	2023	Donostia	27.6	19.3	23.4	26.0	1.5
 29	7	2023	Bilbo	27.5	17.0	22.3	29.0	0.2
 29	7	2023	Vitoria-Gasteiz Aeropuerto	29.3	12.6	20.9	33.0	0.0
 29	7	2023	Iruña	33.8	15.6	24.7	37.0	0.0
@@ -8368,7 +8472,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 29	7	2023	Reus	31.9	23.2	27.6	20.0	0.0
 29	7	2023	Tarragona	30.6	24.4	27.5	0.0	0.0
 29	7	2023	Vigo	23.3	16.6	19.9	21.0	4.7
-10	8	2023	Donostia / San Sebastián Aeropuerto	27.1	20.3	23.7	33.0	0.0
+10	8	2023	Donostia	27.1	20.3	23.7	33.0	0.0
 10	8	2023	Bilbo	28.5	18.8	23.6	33.0	0.0
 10	8	2023	Vitoria-Gasteiz Aeropuerto	28.7	16.4	22.6	30.0	0.0
 10	8	2023	Iruña	32.5	18.7	25.6	34.0	0.0
@@ -8376,7 +8480,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	8	2023	Reus	31.9	22.6	27.3	26.0	0.0
 10	8	2023	Tarragona	29.5	23.6	26.6	0.0	0.0
 10	8	2023	Vigo	26.5	17.4	21.9	24.0	0.0
-26	8	2023	Donostia / San Sebastián Aeropuerto	22.1	15.9	19.0	16.0	14.8
+26	8	2023	Donostia	22.1	15.9	19.0	16.0	14.8
 26	8	2023	Bilbo	21.6	15.7	18.7	24.0	3.4
 26	8	2023	Vitoria-Gasteiz Aeropuerto	22.5	13.9	18.2	31.0	0.0
 26	8	2023	Iruña	27.1	15.7	21.4	35.0	0.1
@@ -8384,7 +8488,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 26	8	2023	Reus	31.6	24.4	28.0	22.0	0.9
 26	8	2023	Tarragona	30.7	25.8	28.3	0.0	2.0
 26	8	2023	Vigo	22.0	13.0	17.5	28.0	0.0
-4	9	2023	Donostia / San Sebastián Aeropuerto	28.7	20.4	24.6	20.0	0.0
+4	9	2023	Donostia	28.7	20.4	24.6	20.0	0.0
 4	9	2023	Bilbo	33.8	20.4	27.1	31.0	3.2
 4	9	2023	Vitoria-Gasteiz Aeropuerto	30.1	16.9	23.5	42.0	16.3
 4	9	2023	Iruña	33.0	18.0	25.5	46.0	0.0
@@ -8392,7 +8496,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 4	9	2023	Reus	34.5	24.3	29.4	35.0	0.0
 4	9	2023	Tarragona	33.0	25.5	29.3	0.0	0.0
 4	9	2023	Vigo	25.8	16.5	21.1	29.0	1.9
-16	7	2023	Donostia / San Sebastián Aeropuerto	23.8	17.7	20.8	13.0	0.0
+16	7	2023	Donostia	23.8	17.7	20.8	13.0	0.0
 16	7	2023	Bilbo	23.7	16.6	20.2	17.0	0.0
 16	7	2023	Vitoria-Gasteiz Aeropuerto	24.6	12.8	18.7	30.0	0.0
 16	7	2023	Iruña	28.1	13.8	21.0	29.0	0.0
@@ -8400,6 +8504,22 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 16	7	2023	Reus	29.9	23.7	26.8	19.0	0.1
 16	7	2023	Tarragona	29.7	25.1	27.4	0.0	0.0
 16	7	2023	Vigo	23.7	11.5	17.6	21.0	0.0
+28	11	2023	Donostia	15.0	10.7	12.8	30.0	5.4
+28	11	2023	Bilbo	13.3	11.8	12.6	18.0	24.4
+28	11	2023	Vitoria-Gasteiz Aeropuerto	13.1	8.0	10.6	13.0	0.9
+28	11	2023	Iruña	13.6	8.6	11.1	20.0	1.3
+28	11	2023	Alforja	18.1	10.6	14.4	42.0	0.0
+28	11	2023	Reus	20.4	11.4	15.9	56.0	0.0
+28	11	2023	Tarragona	21.5	12.1	16.8	0.0	0.0
+28	11	2023	Vigo	13.8	12.1	13.0	18.0	13.1
+1	11	2023	Donostia	22.2	13.2	17.7	50.0	13.7
+1	11	2023	Bilbo	22.6	13.0	17.8	54.0	4.0
+1	11	2023	Vitoria-Gasteiz Aeropuerto	17.8	8.3	13.0	55.0	1.6
+1	11	2023	Iruña	18.5	10.2	14.3	31.0	1.1
+1	11	2023	Alforja	22.8	6.5	14.6	0.0	0.0
+1	11	2023	Reus	22.8	6.5	14.6	32.0	0.0
+1	11	2023	Tarragona	21.8	10.1	15.9	0.0	0.0
+1	11	2023	Vigo	16.6	11.6	14.1	47.0	32.4
 2	5	2023	Donostia	23.2	12.4	17.8	22.0	0.0
 2	5	2023	Bilbo	24.5	8.8	16.7	22.0	0.0
 2	5	2023	Gasteiz	25.7	0.4	13.1	19.0	0.0
@@ -8447,7 +8567,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 6	3	2023	Reus	15.7	5.0	10.3	17.0	0.0
 6	3	2023	Tarragona	15.5	7.3	11.4	0.0	0.0
 6	3	2023	Vigo	20.0	10.4	15.2	0.0	0.0
-27	10	2023	Donostia / San Sebastián Aeropuerto	20.0	10.4	15.2	34.0	0.6
+27	10	2023	Donostia	20.0	10.4	15.2	34.0	0.6
 27	10	2023	Bilbo	20.2	9.6	14.9	30.0	0.0
 27	10	2023	Vitoria-Gasteiz Aeropuerto	17.8	7.6	12.7	38.0	0.0
 27	10	2023	Iruña	19.4	6.4	12.9	31.0	0.0
@@ -8486,6 +8606,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 21	5	2023	Reus	23.6	9.8	16.7	22.0	0.0
 21	5	2023	Tarragona	21.6	11.4	16.5	0.0	0.0
 21	5	2023	Vigo	24.4	9.8	17.1	29.0	0.0
+25	11	2023	Donostia	13.1	5.9	9.5	26.0	0.9
+25	11	2023	Bilbo	13.0	8.6	10.8	13.0	1.7
+25	11	2023	Vitoria-Gasteiz Aeropuerto	12.4	5.2	8.8	14.0	0.0
+25	11	2023	Iruña	12.8	3.5	8.2	26.0	0.0
+25	11	2023	Alforja	16.2	5.4	10.8	34.0	0.0
+25	11	2023	Reus	19.1	5.8	12.5	27.0	0.0
+25	11	2023	Tarragona	19.3	8.4	13.8	0.0	0.0
+25	11	2023	Vigo	14.6	4.6	9.6	22.0	0.0
 18	3	2023	Donostia	20.9	11.9	16.4	27.0	7.3
 18	3	2023	Bilbo	18.5	11.8	15.2	35.0	3.3
 18	3	2023	Gasteiz	16.2	6.8	11.5	31.0	4.0
@@ -8502,7 +8630,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 4	6	2023	Reus	25.8	14.5	20.1	18.0	0.0
 4	6	2023	Tarragona	24.6	16.5	20.6	0.0	0.0
 4	6	2023	Vigo	23.0	14.5	18.8	24.0	0.0
-6	8	2023	Donostia / San Sebastián Aeropuerto	23.4	16.9	20.1	15.0	0.0
+6	8	2023	Donostia	23.4	16.9	20.1	15.0	0.0
 6	8	2023	Bilbo	22.9	15.3	19.1	21.0	0.0
 6	8	2023	Vitoria-Gasteiz Aeropuerto	22.3	11.6	16.9	26.0	0.0
 6	8	2023	Iruña	23.4	13.7	18.5	37.0	0.0
@@ -8518,7 +8646,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	5	2023	Reus	26.5	14.0	20.3	36.0	0.0
 10	5	2023	Tarragona	28.3	13.6	20.9	0.0	0.0
 10	5	2023	Vigo	18.4	8.8	13.6	23.0	0.0
-11	7	2023	Donostia / San Sebastián Aeropuerto	23.8	20.1	21.9	14.0	1.6
+11	7	2023	Donostia	23.8	20.1	21.9	14.0	1.6
 11	7	2023	Bilbo	23.5	17.6	20.6	15.0	0.0
 11	7	2023	Vitoria-Gasteiz Aeropuerto	25.8	14.3	20.0	30.0	0.0
 11	7	2023	Iruña	33.4	18.9	26.2	36.0	0.0
@@ -8526,7 +8654,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	7	2023	Reus	32.3	23.4	27.8	23.0	0.0
 11	7	2023	Tarragona	30.0	24.4	27.2	0.0	0.0
 11	7	2023	Vigo	25.1	15.0	20.1	22.0	0.0
-30	10	2023	Donostia / San Sebastián Aeropuerto	19.2	11.3	15.3	30.0	6.3
+30	10	2023	Donostia	19.2	11.3	15.3	30.0	6.3
 30	10	2023	Bilbo	20.9	11.2	16.0	39.0	0.8
 30	10	2023	Vitoria-Gasteiz Aeropuerto	16.4	10.1	13.3	37.0	1.3
 30	10	2023	Iruña	17.6	10.6	14.1	28.0	13.6
@@ -8557,7 +8685,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 28	1	2023	Reus	12.0	-1.5	5.3	30.0	0.0
 28	1	2023	Tarragona	12.3	0.9	6.6	0.0	0.0
 28	1	2023	Vigo	11.3	2.3	6.8	29.0	0.0
-20	6	2023	Donostia / San Sebastián Aeropuerto	24.0	19.5	21.8	20.0	12.4
+20	6	2023	Donostia	24.0	19.5	21.8	20.0	12.4
 20	6	2023	Bilbo	22.6	17.8	20.2	19.0	10.4
 20	6	2023	Vitoria-Gasteiz Aeropuerto	27.1	14.3	20.7	26.0	8.8
 20	6	2023	Iruña	29.5	14.6	22.1	35.0	16.7
@@ -8565,7 +8693,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 20	6	2023	Reus	29.3	17.8	23.5	16.0	0.0
 20	6	2023	Tarragona	27.4	19.6	23.5	0.0	0.0
 20	6	2023	Vigo	20.9	12.5	16.7	24.0	0.0
-19	6	2023	Donostia / San Sebastián Aeropuerto	27.8	19.2	23.5	30.0	1.4
+19	6	2023	Donostia	27.8	19.2	23.5	30.0	1.4
 19	6	2023	Bilbo	27.4	17.3	22.3	28.0	3.0
 19	6	2023	Vitoria-Gasteiz Aeropuerto	24.5	14.3	19.4	32.0	0.8
 19	6	2023	Iruña	23.4	15.5	19.4	25.0	11.0
@@ -8581,7 +8709,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	4	2023	Reus	19.7	7.5	13.6	17.0	0.0
 19	4	2023	Tarragona	18.8	9.5	14.1	0.0	0.0
 19	4	2023	Vigo	21.1	9.8	15.5	27.0	0.0
-4	7	2023	Donostia / San Sebastián Aeropuerto	25.8	19.7	22.8	15.0	0.3
+4	7	2023	Donostia	25.8	19.7	22.8	15.0	0.3
 4	7	2023	Bilbo	25.3	14.8	20.0	20.0	0.0
 4	7	2023	Vitoria-Gasteiz Aeropuerto	25.3	11.7	18.5	32.0	0.0
 4	7	2023	Iruña	26.3	15.2	20.7	28.0	0.0
@@ -8604,7 +8732,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	1	2023	Reus	17.4	4.3	10.8	30.0	0.0
 11	1	2023	Tarragona	16.9	7.6	12.2	0.0	0.0
 11	1	2023	Vigo	13.9	6.7	10.3	21.0	16.9
-5	10	2023	Donostia / San Sebastián Aeropuerto	24.2	15.9	20.1	13.0	0.0
+5	10	2023	Donostia	24.2	15.9	20.1	13.0	0.0
 5	10	2023	Bilbo	28.5	15.5	22.0	17.0	0.0
 5	10	2023	Vitoria-Gasteiz Aeropuerto	30.4	12.5	21.4	15.0	0.0
 5	10	2023	Iruña	29.5	11.9	20.7	12.0	0.0
@@ -8620,7 +8748,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 26	3	2023	Reus	25.2	8.4	16.8	49.0	0.0
 26	3	2023	Tarragona	26.8	9.4	18.1	0.0	0.0
 26	3	2023	Vigo	14.4	7.9	11.1	18.0	0.0
-4	10	2023	Donostia / San Sebastián Aeropuerto	23.2	17.1	20.2	14.0	0.0
+4	10	2023	Donostia	23.2	17.1	20.2	14.0	0.0
 4	10	2023	Bilbo	24.6	17.2	20.9	14.0	0.0
 4	10	2023	Vitoria-Gasteiz Aeropuerto	26.9	14.5	20.7	23.0	0.0
 4	10	2023	Iruña	27.9	15.1	21.5	19.0	0.0
@@ -8628,7 +8756,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 4	10	2023	Reus	28.3	19.3	23.8	25.0	0.0
 4	10	2023	Tarragona	28.9	21.0	24.9	0.0	0.0
 4	10	2023	Vigo	26.0	13.9	19.9	22.0	0.0
-23	9	2023	Donostia / San Sebastián Aeropuerto	22.7	13.9	18.3	23.0	1.2
+23	9	2023	Donostia	22.7	13.9	18.3	23.0	1.2
 23	9	2023	Bilbo	22.3	13.8	18.0	14.0	1.0
 23	9	2023	Vitoria-Gasteiz Aeropuerto	22.7	5.1	13.9	15.0	0.0
 23	9	2023	Iruña	20.9	9.8	15.3	18.0	0.0
@@ -8644,7 +8772,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	3	2023	Reus	15.5	3.5	9.5	0.0	0.0
 5	3	2023	Tarragona	15.5	3.5	9.5	0.0	0.0
 5	3	2023	Vigo	9.5	5.3	7.4	15.0	2.4
-23	10	2023	Donostia / San Sebastián Aeropuerto	21.6	12.2	16.9	20.0	37.3
+9	11	2023	Donostia	17.2	11.2	14.2	23.0	23.2
+9	11	2023	Bilbo	17.9	9.8	13.8	27.0	6.7
+9	11	2023	Vitoria-Gasteiz Aeropuerto	15.3	6.7	11.0	28.0	4.3
+9	11	2023	Iruña	15.4	8.5	11.9	25.0	7.5
+9	11	2023	Alforja	15.9	6.3	11.1	31.0	1.4
+9	11	2023	Reus	18.8	8.0	13.4	33.0	0.4
+9	11	2023	Tarragona	21.1	9.2	15.2	0.0	0.2
+9	11	2023	Vigo	15.2	8.8	12.0	18.0	4.0
+23	10	2023	Donostia	21.6	12.2	16.9	20.0	37.3
 23	10	2023	Bilbo	20.2	11.6	15.9	21.0	8.1
 23	10	2023	Vitoria-Gasteiz Aeropuerto	17.2	9.5	13.4	22.0	10.6
 23	10	2023	Iruña	18.6	9.7	14.2	24.0	28.0
@@ -8700,7 +8836,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	2	2023	Reus	19.2	1.9	10.6	14.0	0.0
 19	2	2023	Tarragona	17.3	5.1	11.2	0.0	0.0
 19	2	2023	Vigo	21.2	9.8	15.5	17.0	0.0
-19	9	2023	Donostia / San Sebastián Aeropuerto	23.9	17.1	20.5	17.0	2.8
+19	9	2023	Donostia	23.9	17.1	20.5	17.0	2.8
 19	9	2023	Bilbo	26.4	16.8	21.6	17.0	0.0
 19	9	2023	Vitoria-Gasteiz Aeropuerto	26.5	13.2	19.8	24.0	0.0
 19	9	2023	Iruña	26.6	12.9	19.8	13.0	0.0
@@ -8715,7 +8851,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	1	2023	Reus	16.2	11.2	13.7	52.0	0.0
 9	1	2023	Tarragona	18.4	10.0	14.2	0.0	0.0
 9	1	2023	Vigo	12.9	5.8	9.3	15.0	0.0
-2	10	2023	Donostia / San Sebastián Aeropuerto	33.9	16.4	25.2	26.0	0.0
+2	10	2023	Donostia	33.9	16.4	25.2	26.0	0.0
 2	10	2023	Bilbo	36.7	18.0	27.4	32.0	0.0
 2	10	2023	Vitoria-Gasteiz Aeropuerto	33.5	10.0	21.8	19.0	0.0
 2	10	2023	Iruña	31.2	12.3	21.8	12.0	0.0
@@ -8723,7 +8859,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	10	2023	Reus	27.2	20.0	23.6	15.0	0.0
 2	10	2023	Tarragona	26.5	20.4	23.4	0.0	0.0
 2	10	2023	Vigo	24.7	15.7	20.2	21.0	0.0
-3	9	2023	Donostia / San Sebastián Aeropuerto	25.5	15.0	20.3	18.0	0.0
+3	9	2023	Donostia	25.5	15.0	20.3	18.0	0.0
 3	9	2023	Bilbo	29.0	14.4	21.7	21.0	0.0
 3	9	2023	Vitoria-Gasteiz Aeropuerto	25.8	12.6	19.2	0.0	0.0
 3	9	2023	Iruña	25.8	12.6	19.2	14.0	0.1
@@ -8731,6 +8867,22 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 3	9	2023	Reus	31.5	20.5	26.0	39.0	1.1
 3	9	2023	Tarragona	30.6	21.2	25.9	0.0	1.2
 3	9	2023	Vigo	26.2	15.0	20.6	27.0	0.6
+12	11	2023	Donostia	23.3	11.8	17.5	23.0	3.1
+12	11	2023	Bilbo	23.4	13.2	18.3	14.0	1.4
+12	11	2023	Vitoria-Gasteiz Aeropuerto	20.3	12.2	16.2	34.0	0.0
+12	11	2023	Iruña	20.2	11.4	15.8	16.0	0.2
+12	11	2023	Alforja	22.3	15.9	19.1	25.0	0.0
+12	11	2023	Reus	24.5	12.8	18.7	37.0	0.0
+12	11	2023	Tarragona	25.7	14.1	19.9	0.0	0.0
+12	11	2023	Vigo	19.4	14.7	17.0	27.0	3.2
+26	11	2023	Donostia	12.5	2.3	7.4	9.0	0.0
+26	11	2023	Bilbo	15.6	5.1	10.4	14.0	0.0
+26	11	2023	Vitoria-Gasteiz Aeropuerto	11.6	1.3	6.5	13.0	0.0
+26	11	2023	Iruña	11.7	-1.2	5.2	11.0	0.0
+26	11	2023	Alforja	15.2	4.4	9.8	17.0	0.0
+26	11	2023	Reus	17.4	6.2	11.8	18.0	0.0
+26	11	2023	Tarragona	19.3	9.0	14.1	0.0	0.0
+26	11	2023	Vigo	11.3	6.6	9.0	17.0	0.0
 20	1	2023	Donostia	11.2	2.2	6.7	26.0	0.0
 20	1	2023	Bilbo	11.2	2.7	6.9	32.0	0.0
 20	1	2023	Gasteiz	8.1	-0.6	3.8	31.0	0.1
@@ -8738,7 +8890,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 20	1	2023	Reus	13.4	0.7	7.0	42.0	0.0
 20	1	2023	Tarragona	16.0	3.9	10.0	0.0	0.0
 20	1	2023	Vigo	13.6	11.1	12.4	18.0	1.3
-30	7	2023	Donostia / San Sebastián Aeropuerto	23.9	18.2	21.1	13.0	4.5
+6	11	2023	Donostia	17.6	9.3	13.5	27.0	28.7
+6	11	2023	Bilbo	16.9	7.7	12.3	23.0	0.5
+6	11	2023	Vitoria-Gasteiz Aeropuerto	14.1	4.9	9.5	35.0	0.0
+6	11	2023	Iruña	14.7	5.2	9.9	22.0	0.0
+6	11	2023	Alforja	16.6	7.4	12.0	30.0	0.0
+6	11	2023	Reus	19.2	8.4	13.8	29.0	0.0
+6	11	2023	Tarragona	22.2	9.9	16.1	0.0	0.0
+6	11	2023	Vigo	12.8	7.0	9.9	17.0	15.3
+30	7	2023	Donostia	23.9	18.2	21.1	13.0	4.5
 30	7	2023	Bilbo	25.1	18.6	21.9	14.0	1.7
 30	7	2023	Vitoria-Gasteiz Aeropuerto	24.1	14.9	19.5	27.0	0.0
 30	7	2023	Iruña	26.1	16.4	21.3	36.0	0.0
@@ -8746,7 +8906,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 30	7	2023	Reus	30.0	23.9	26.9	24.0	0.0
 30	7	2023	Tarragona	29.9	24.4	27.1	0.0	0.0
 30	7	2023	Vigo	25.1	14.1	19.6	26.0	0.0
-21	6	2023	Donostia / San Sebastián Aeropuerto	22.5	18.8	20.6	14.0	17.3
+21	6	2023	Donostia	22.5	18.8	20.6	14.0	17.3
 21	6	2023	Bilbo	20.7	17.2	19.0	12.0	1.9
 21	6	2023	Vitoria-Gasteiz Aeropuerto	23.5	16.3	19.9	28.0	3.9
 21	6	2023	Iruña	27.0	16.0	21.5	31.0	3.9
@@ -8793,7 +8953,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	6	2023	Reus	28.5	19.0	23.8	23.0	0.5
 11	6	2023	Tarragona	26.7	19.8	23.3	0.0	1.0
 11	6	2023	Vigo	21.5	13.6	17.6	21.0	0.0
-3	8	2023	Donostia / San Sebastián Aeropuerto	21.6	16.9	19.3	24.0	33.4
+17	11	2023	Donostia	18.2	9.2	13.7	13.0	0.2
+17	11	2023	Bilbo	19.1	10.6	14.9	10.0	0.0
+17	11	2023	Vitoria-Gasteiz Aeropuerto	17.3	4.4	10.8	11.0	0.0
+17	11	2023	Iruña	15.5	6.6	11.0	18.0	0.0
+17	11	2023	Alforja	18.7	7.3	13.0	29.0	0.0
+17	11	2023	Reus	21.3	10.4	15.8	30.0	0.0
+17	11	2023	Tarragona	23.9	13.1	18.5	0.0	0.0
+17	11	2023	Vigo	17.5	11.4	14.4	15.0	0.0
+3	8	2023	Donostia	21.6	16.9	19.3	24.0	33.4
 3	8	2023	Bilbo	22.5	16.7	19.6	37.0	2.7
 3	8	2023	Vitoria-Gasteiz Aeropuerto	22.1	13.3	17.7	30.0	0.0
 3	8	2023	Iruña	23.3	14.6	18.9	39.0	0.0
@@ -8801,7 +8969,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 3	8	2023	Reus	33.0	22.7	27.9	35.0	0.0
 3	8	2023	Tarragona	33.7	23.5	28.6	0.0	0.0
 3	8	2023	Vigo	23.4	14.4	18.9	25.0	0.0
-5	7	2023	Donostia / San Sebastián Aeropuerto	26.2	18.4	22.3	18.0	0.0
+5	7	2023	Donostia	26.2	18.4	22.3	18.0	0.0
 5	7	2023	Bilbo	24.3	17.7	21.0	17.0	0.1
 5	7	2023	Vitoria-Gasteiz Aeropuerto	25.8	14.2	20.0	31.0	0.0
 5	7	2023	Iruña	27.1	13.8	20.5	26.0	0.0
@@ -8832,7 +9000,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 18	4	2023	Reus	18.8	11.6	15.2	21.0	20.6
 18	4	2023	Tarragona	18.7	12.4	15.6	0.0	0.6
 18	4	2023	Vigo	24.5	11.2	17.8	22.0	0.0
-6	9	2023	Donostia / San Sebastián Aeropuerto	33.7	20.3	27.0	21.0	0.0
+6	9	2023	Donostia	33.7	20.3	27.0	21.0	0.0
 6	9	2023	Bilbo	33.6	20.2	26.9	22.0	0.0
 6	9	2023	Vitoria-Gasteiz Aeropuerto	30.4	15.1	22.8	17.0	0.0
 6	9	2023	Iruña	31.7	16.5	24.1	20.0	0.0
@@ -8871,7 +9039,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	4	2023	Reus	22.5	10.0	16.3	34.0	0.0
 14	4	2023	Tarragona	20.7	10.9	15.8	0.0	0.0
 14	4	2023	Vigo	15.1	9.5	12.3	21.0	38.8
-27	9	2023	Donostia / San Sebastián Aeropuerto	30.1	15.5	22.8	32.0	0.0
+27	9	2023	Donostia	30.1	15.5	22.8	32.0	0.0
 27	9	2023	Bilbo	29.8	16.0	22.9	33.0	0.0
 27	9	2023	Vitoria-Gasteiz Aeropuerto	29.2	10.4	19.8	33.0	0.0
 27	9	2023	Iruña	26.9	11.8	19.3	23.0	0.0
@@ -8886,7 +9054,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 3	2	2023	Reus	19.5	-0.3	9.6	19.0	0.0
 3	2	2023	Tarragona	18.1	5.6	11.9	0.0	0.0
 3	2	2023	Vigo	17.2	2.9	10.1	14.0	0.0
-1	9	2023	Donostia / San Sebastián Aeropuerto	25.4	15.5	20.4	23.0	10.4
+1	9	2023	Donostia	25.4	15.5	20.4	23.0	10.4
 1	9	2023	Bilbo	27.5	16.3	21.9	18.0	0.0
 1	9	2023	Vitoria-Gasteiz Aeropuerto	31.6	13.2	22.4	28.0	0.0
 1	9	2023	Iruña	27.0	18.4	22.7	0.0	0.0
@@ -8902,7 +9070,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	5	2023	Reus	26.0	14.3	20.2	35.0	0.0
 9	5	2023	Tarragona	23.4	14.9	19.1	0.0	0.0
 9	5	2023	Vigo	19.1	12.5	15.8	26.0	6.9
-24	8	2023	Donostia / San Sebastián Aeropuerto	32.1	22.9	27.5	19.0	0.0
+24	8	2023	Donostia	32.1	22.9	27.5	19.0	0.0
 24	8	2023	Bilbo	32.3	21.7	27.0	26.0	0.0
 24	8	2023	Vitoria-Gasteiz Aeropuerto	41.1	16.9	29.0	33.0	0.0
 24	8	2023	Iruña	41.3	21.5	31.4	40.0	0.0
@@ -8910,7 +9078,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	8	2023	Reus	36.1	23.9	30.0	20.0	0.0
 24	8	2023	Tarragona	34.4	24.7	29.6	0.0	0.0
 24	8	2023	Vigo	23.8	17.9	20.8	22.0	0.0
-24	9	2023	Donostia / San Sebastián Aeropuerto	29.0	10.5	19.8	14.0	0.0
+24	9	2023	Donostia	29.0	10.5	19.8	14.0	0.0
 24	9	2023	Bilbo	31.9	12.1	22.0	24.0	0.0
 24	9	2023	Vitoria-Gasteiz Aeropuerto	29.1	4.4	16.8	17.0	0.0
 24	9	2023	Iruña	27.1	7.1	17.1	10.0	0.0
@@ -8926,7 +9094,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 21	3	2023	Reus	17.7	10.2	14.0	15.0	0.0
 21	3	2023	Tarragona	18.0	11.1	14.6	0.0	0.0
 21	3	2023	Vigo	16.6	9.3	13.0	26.0	0.2
-2	7	2023	Donostia / San Sebastián Aeropuerto	24.2	18.2	21.2	13.0	16.8
+2	7	2023	Donostia	24.2	18.2	21.2	13.0	16.8
 2	7	2023	Bilbo	24.0	18.9	21.4	19.0	0.3
 2	7	2023	Vitoria-Gasteiz Aeropuerto	25.6	12.5	19.1	28.0	0.0
 2	7	2023	Iruña	26.6	15.9	21.3	32.0	0.0
@@ -8934,7 +9102,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	7	2023	Reus	31.2	18.9	25.1	21.0	0.0
 2	7	2023	Tarragona	29.2	19.3	24.3	0.0	0.0
 2	7	2023	Vigo	31.0	16.5	23.8	29.0	0.0
-11	8	2023	Donostia / San Sebastián Aeropuerto	26.4	17.1	21.8	16.0	0.0
+11	8	2023	Donostia	26.4	17.1	21.8	16.0	0.0
 11	8	2023	Bilbo	31.5	16.2	23.9	23.0	0.0
 11	8	2023	Vitoria-Gasteiz Aeropuerto	35.1	11.1	23.1	28.0	0.0
 11	8	2023	Iruña	36.9	13.8	25.4	28.0	0.0
@@ -8942,7 +9110,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	8	2023	Reus	33.3	20.7	27.0	24.0	0.0
 11	8	2023	Tarragona	32.3	21.8	27.0	0.0	0.0
 11	8	2023	Vigo	28.0	16.9	22.4	28.0	0.0
-14	10	2023	Donostia / San Sebastián Aeropuerto	22.6	17.0	19.8	19.0	4.2
+14	10	2023	Donostia	22.6	17.0	19.8	19.0	4.2
 14	10	2023	Bilbo	20.3	15.9	18.1	17.0	6.0
 14	10	2023	Vitoria-Gasteiz Aeropuerto	21.7	12.7	17.2	22.0	0.0
 14	10	2023	Iruña	23.1	12.0	17.6	29.0	0.4
@@ -8965,7 +9133,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	1	2023	Reus	17.4	2.9	10.1	21.0	0.0
 14	1	2023	Tarragona	17.1	6.7	11.9	0.0	0.0
 14	1	2023	Vigo	14.3	10.6	12.5	36.0	0.6
-24	7	2023	Donostia / San Sebastián Aeropuerto	21.5	17.5	19.5	19.0	0.0
+24	7	2023	Donostia	21.5	17.5	19.5	19.0	0.0
 24	7	2023	Bilbo	22.2	17.4	19.8	27.0	2.5
 24	7	2023	Vitoria-Gasteiz Aeropuerto	21.1	11.2	16.2	27.0	0.0
 24	7	2023	Iruña	25.4	15.0	20.2	33.0	0.0
@@ -8973,7 +9141,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	7	2023	Reus	38.8	24.0	31.4	25.0	0.0
 24	7	2023	Tarragona	33.0	25.4	29.2	0.0	0.0
 24	7	2023	Vigo	21.2	14.6	17.9	22.0	1.8
-19	10	2023	Donostia / San Sebastián Aeropuerto	24.2	17.3	20.8	42.0	0.8
+19	10	2023	Donostia	24.2	17.3	20.8	42.0	0.8
 19	10	2023	Bilbo	23.8	14.4	19.1	35.0	2.5
 19	10	2023	Vitoria-Gasteiz Aeropuerto	20.1	12.3	16.2	46.0	8.0
 19	10	2023	Iruña	19.6	13.1	16.4	39.0	12.9
@@ -8981,7 +9149,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	10	2023	Reus	24.3	15.3	19.8	41.0	7.4
 19	10	2023	Tarragona	25.0	16.3	20.6	0.0	4.8
 19	10	2023	Vigo	17.8	13.3	15.5	33.0	82.6
-2	8	2023	Donostia / San Sebastián Aeropuerto	31.0	18.7	24.9	29.0	12.2
+2	8	2023	Donostia	31.0	18.7	24.9	29.0	12.2
 2	8	2023	Bilbo	30.4	17.3	23.8	41.0	0.0
 2	8	2023	Vitoria-Gasteiz Aeropuerto	32.5	13.4	22.9	34.0	0.0
 2	8	2023	Iruña	33.8	14.5	24.1	41.0	0.0
@@ -9005,7 +9173,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	2	2023	Reus	15.3	4.2	9.8	21.0	0.0
 25	2	2023	Tarragona	16.1	5.6	10.9	0.0	0.0
 25	2	2023	Vigo	7.3	3.3	5.3	12.0	3.0
-26	10	2023	Donostia / San Sebastián Aeropuerto	22.2	14.2	18.2	25.0	44.9
+26	10	2023	Donostia	22.2	14.2	18.2	25.0	44.9
 26	10	2023	Bilbo	23.4	10.9	17.1	26.0	36.3
 26	10	2023	Vitoria-Gasteiz Aeropuerto	17.9	8.8	13.3	32.0	40.9
 26	10	2023	Iruña	19.0	11.1	15.1	26.0	6.7
@@ -9013,7 +9181,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 26	10	2023	Reus	25.2	16.4	20.8	47.0	0.0
 26	10	2023	Tarragona	24.9	17.4	21.1	0.0	0.0
 26	10	2023	Vigo	18.1	12.8	15.5	32.0	92.1
-30	6	2023	Donostia / San Sebastián Aeropuerto	23.1	17.6	20.4	25.0	12.9
+30	6	2023	Donostia	23.1	17.6	20.4	25.0	12.9
 30	6	2023	Bilbo	22.4	14.5	18.4	27.0	4.5
 30	6	2023	Vitoria-Gasteiz Aeropuerto	19.4	12.5	15.9	23.0	0.1
 30	6	2023	Iruña	20.6	13.5	17.1	32.0	0.0
@@ -9037,7 +9205,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	6	2023	Reus	25.8	16.4	21.1	20.0	0.0
 5	6	2023	Tarragona	24.5	17.3	20.9	0.0	0.0
 5	6	2023	Vigo	24.9	13.4	19.1	26.0	0.0
-21	10	2023	Donostia / San Sebastián Aeropuerto	20.9	11.3	16.1	30.0	0.0
+21	10	2023	Donostia	20.9	11.3	16.1	30.0	0.0
 21	10	2023	Bilbo	20.4	10.9	15.6	20.0	0.0
 21	10	2023	Vitoria-Gasteiz Aeropuerto	17.2	5.0	11.1	27.0	0.0
 21	10	2023	Iruña	17.3	5.8	11.5	22.0	4.2
@@ -9077,7 +9245,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 13	3	2023	Reus	20.9	9.7	15.3	48.0	0.0
 13	3	2023	Tarragona	18.8	11.7	15.2	0.0	0.0
 13	3	2023	Vigo	14.4	9.8	12.1	39.0	12.9
-5	9	2023	Donostia / San Sebastián Aeropuerto	32.6	21.5	27.0	30.0	0.0
+5	9	2023	Donostia	32.6	21.5	27.0	30.0	0.0
 5	9	2023	Bilbo	33.7	18.8	26.3	18.0	0.0
 5	9	2023	Vitoria-Gasteiz Aeropuerto	29.9	13.9	21.9	27.0	0.0
 5	9	2023	Iruña	31.9	20.5	26.2	24.0	0.0
@@ -9085,7 +9253,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	9	2023	Reus	30.0	20.6	25.3	23.0	0.0
 5	9	2023	Tarragona	28.9	21.6	25.3	0.0	0.0
 5	9	2023	Vigo	23.7	16.3	20.0	32.0	20.0
-11	10	2023	Donostia / San Sebastián Aeropuerto	27.4	12.5	19.9	14.0	0.0
+11	10	2023	Donostia	27.4	12.5	19.9	14.0	0.0
 11	10	2023	Bilbo	32.5	12.4	22.4	11.0	0.0
 11	10	2023	Vitoria-Gasteiz Aeropuerto	30.2	3.9	17.1	18.0	0.0
 11	10	2023	Iruña	28.5	9.5	19.0	14.0	0.0
@@ -9093,7 +9261,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	10	2023	Reus	26.1	13.6	19.9	17.0	0.0
 11	10	2023	Tarragona	26.0	16.7	21.4	0.0	0.0
 11	10	2023	Vigo	27.7	15.4	21.6	18.0	0.0
-16	8	2023	Donostia / San Sebastián Aeropuerto	26.3	20.2	23.3	15.0	0.0
+16	8	2023	Donostia	26.3	20.2	23.3	15.0	0.0
 16	8	2023	Bilbo	22.4	19.2	20.8	12.0	0.1
 16	8	2023	Vitoria-Gasteiz Aeropuerto	26.0	17.5	21.8	29.0	0.0
 16	8	2023	Iruña	33.6	18.6	26.1	36.0	0.1
@@ -9109,7 +9277,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	5	2023	Reus	17.9	13.6	15.8	17.0	21.3
 25	5	2023	Tarragona	18.9	15.3	17.1	0.0	21.6
 25	5	2023	Vigo	26.0	13.5	19.8	30.0	0.0
-17	10	2023	Donostia / San Sebastián Aeropuerto	28.6	17.9	23.3	40.0	0.0
+17	10	2023	Donostia	28.6	17.9	23.3	40.0	0.0
 17	10	2023	Bilbo	29.1	21.0	25.1	39.0	0.0
 17	10	2023	Vitoria-Gasteiz Aeropuerto	25.7	14.5	20.1	37.0	0.0
 17	10	2023	Iruña	25.5	17.2	21.4	42.0	0.0
@@ -9132,7 +9300,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 28	4	2023	Reus	24.5	12.4	18.4	13.0	0.0
 28	4	2023	Tarragona	23.7	13.9	18.8	0.0	0.0
 28	4	2023	Vigo	21.9	13.5	17.7	22.0	0.0
-31	10	2023	Donostia / San Sebastián Aeropuerto	21.8	11.4	16.6	26.0	0.0
+31	10	2023	Donostia	21.8	11.4	16.6	26.0	0.0
 31	10	2023	Bilbo	20.6	10.5	15.6	23.0	0.0
 31	10	2023	Vitoria-Gasteiz Aeropuerto	16.2	7.5	11.9	0.0	0.0
 31	10	2023	Iruña	16.0	5.9	11.0	18.0	0.0
@@ -9147,7 +9315,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 1	2	2023	Reus	16.0	-1.3	7.4	19.0	0.0
 1	2	2023	Tarragona	16.1	2.9	9.5	0.0	0.0
 1	2	2023	Vigo	13.9	1.5	7.7	17.0	0.0
-22	7	2023	Donostia / San Sebastián Aeropuerto	25.3	16.7	21.0	14.0	0.0
+22	7	2023	Donostia	25.3	16.7	21.0	14.0	0.0
 22	7	2023	Bilbo	26.8	13.5	20.1	17.0	0.0
 22	7	2023	Vitoria-Gasteiz Aeropuerto	26.4	9.8	18.1	27.0	0.0
 22	7	2023	Iruña	30.8	13.6	22.2	25.0	0.0
@@ -9171,6 +9339,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	5	2023	Reus	23.6	13.9	18.8	17.0	0.0
 5	5	2023	Tarragona	22.4	15.4	18.9	0.0	0.0
 5	5	2023	Vigo	20.7	12.0	16.4	29.0	0.0
+14	11	2023	Donostia	25.8	13.4	19.6	24.0	6.2
+14	11	2023	Bilbo	24.0	14.6	19.3	36.0	1.3
+14	11	2023	Vitoria-Gasteiz Aeropuerto	20.3	12.5	16.4	37.0	0.0
+14	11	2023	Iruña	20.6	10.6	15.6	19.0	0.0
+14	11	2023	Alforja	27.0	12.3	19.7	0.0	0.0
+14	11	2023	Reus	27.0	12.3	19.7	28.0	0.0
+14	11	2023	Tarragona	28.0	14.0	21.0	0.0	0.0
+14	11	2023	Vigo	17.1	14.7	15.9	31.0	18.5
 7	1	2023	Donostia	17.8	5.7	11.7	44.0	8.1
 7	1	2023	Bilbo	18.0	9.9	13.9	44.0	12.5
 7	1	2023	Gasteiz	9.7	2.8	6.2	39.0	2.6
@@ -9194,7 +9370,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	3	2023	Reus	23.6	14.1	18.9	49.0	0.0
 10	3	2023	Tarragona	25.2	14.8	20.0	0.0	0.0
 10	3	2023	Vigo	16.2	11.5	13.9	35.0	3.1
-15	6	2023	Donostia / San Sebastián Aeropuerto	22.8	17.4	20.1	14.0	0.0
+15	6	2023	Donostia	22.8	17.4	20.1	14.0	0.0
 15	6	2023	Bilbo	25.9	16.1	21.0	15.0	0.0
 15	6	2023	Vitoria-Gasteiz Aeropuerto	25.9	10.3	18.1	22.0	0.0
 15	6	2023	Iruña	26.6	14.7	20.7	29.0	0.0
@@ -9202,7 +9378,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 15	6	2023	Reus	30.6	16.9	23.8	22.0	0.0
 15	6	2023	Tarragona	29.4	18.3	23.8	0.0	0.0
 15	6	2023	Vigo	28.5	15.0	21.8	24.0	0.0
-31	8	2023	Donostia / San Sebastián Aeropuerto	26.3	15.1	20.7	15.0	0.0
+31	8	2023	Donostia	26.3	15.1	20.7	15.0	0.0
 31	8	2023	Bilbo	27.9	14.7	21.3	18.0	0.0
 31	8	2023	Vitoria-Gasteiz Aeropuerto	26.8	9.1	17.9	21.0	0.0
 31	8	2023	Iruña	30.4	17.1	23.8	0.0	0.0
@@ -9210,7 +9386,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 31	8	2023	Reus	30.4	17.1	23.8	33.0	0.0
 31	8	2023	Tarragona	30.5	17.1	23.8	0.0	0.0
 31	8	2023	Vigo	25.4	15.3	20.3	24.0	0.0
-11	9	2023	Donostia / San Sebastián Aeropuerto	26.5	18.8	22.6	29.0	12.0
+11	9	2023	Donostia	26.5	18.8	22.6	29.0	12.0
 11	9	2023	Bilbo	27.9	17.9	22.9	39.0	13.8
 11	9	2023	Vitoria-Gasteiz Aeropuerto	29.0	16.5	22.8	25.0	0.8
 11	9	2023	Iruña	28.7	15.5	22.1	0.0	0.0
@@ -9218,7 +9394,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 11	9	2023	Reus	28.9	18.6	23.8	15.0	0.0
 11	9	2023	Tarragona	27.7	19.9	23.8	0.0	0.0
 11	9	2023	Vigo	22.8	15.5	19.1	23.0	0.0
-27	7	2023	Donostia / San Sebastián Aeropuerto	28.7	15.6	22.2	19.0	0.0
+27	7	2023	Donostia	28.7	15.6	22.2	19.0	0.0
 27	7	2023	Bilbo	27.3	15.8	21.5	25.0	0.0
 27	7	2023	Vitoria-Gasteiz Aeropuerto	32.4	10.6	21.5	29.0	11.7
 27	7	2023	Iruña	32.9	12.3	22.6	39.0	0.0
@@ -9226,7 +9402,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 27	7	2023	Reus	30.0	19.8	24.9	26.0	4.4
 27	7	2023	Tarragona	29.3	20.5	24.9	0.0	2.4
 27	7	2023	Vigo	22.6	15.9	19.3	20.0	0.0
-7	8	2023	Donostia / San Sebastián Aeropuerto	23.3	14.6	18.9	18.0	0.0
+7	8	2023	Donostia	23.3	14.6	18.9	18.0	0.0
 7	8	2023	Bilbo	25.1	12.1	18.6	22.0	0.0
 7	8	2023	Vitoria-Gasteiz Aeropuerto	26.4	6.2	16.3	24.0	0.0
 7	8	2023	Iruña	28.4	12.1	20.3	26.0	0.0
@@ -9234,7 +9410,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 7	8	2023	Reus	28.5	17.7	23.1	27.0	0.8
 7	8	2023	Tarragona	27.6	18.9	23.3	0.0	0.0
 7	8	2023	Vigo	23.9	19.7	21.8	0.0	0.0
-26	6	2023	Donostia / San Sebastián Aeropuerto	23.9	19.7	21.8	19.0	0.1
+26	6	2023	Donostia	23.9	19.7	21.8	19.0	0.1
 26	6	2023	Bilbo	23.2	16.9	20.1	0.0	0.0
 26	6	2023	Vitoria-Gasteiz Aeropuerto	23.2	16.9	20.1	27.0	0.0
 26	6	2023	Iruña	26.3	17.4	21.8	38.0	0.0
@@ -9242,7 +9418,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 26	6	2023	Reus	31.9	20.4	26.1	21.0	0.0
 26	6	2023	Tarragona	30.2	21.4	25.8	0.0	0.0
 26	6	2023	Vigo	27.8	15.3	21.5	23.0	0.0
-17	8	2023	Donostia / San Sebastián Aeropuerto	25.9	19.7	22.8	15.0	0.0
+17	8	2023	Donostia	25.9	19.7	22.8	15.0	0.0
 17	8	2023	Bilbo	29.8	19.4	24.6	24.0	0.0
 17	8	2023	Vitoria-Gasteiz Aeropuerto	35.2	17.5	26.4	28.0	0.0
 17	8	2023	Iruña	37.1	18.0	27.5	21.0	0.0
@@ -9281,7 +9457,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	6	2023	Reus	25.5	13.4	19.4	18.0	0.0
 2	6	2023	Tarragona	23.9	15.2	19.5	0.0	0.0
 2	6	2023	Vigo	23.3	14.2	18.7	20.0	0.0
-14	8	2023	Donostia / San Sebastián Aeropuerto	23.8	19.5	21.6	14.0	0.0
+14	8	2023	Donostia	23.8	19.5	21.6	14.0	0.0
 14	8	2023	Bilbo	26.4	19.4	22.9	17.0	0.0
 14	8	2023	Vitoria-Gasteiz Aeropuerto	30.1	16.8	23.4	35.0	0.0
 14	8	2023	Iruña	36.7	17.0	26.9	36.0	0.0
@@ -9289,6 +9465,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	8	2023	Reus	31.2	23.8	27.5	19.0	0.0
 14	8	2023	Tarragona	30.3	24.3	27.3	0.0	0.0
 14	8	2023	Vigo	27.3	13.5	20.4	24.0	0.0
+27	11	2023	Donostia	14.8	7.6	11.2	31.0	15.7
+27	11	2023	Bilbo	14.3	6.8	10.6	28.0	11.8
+27	11	2023	Vitoria-Gasteiz Aeropuerto	10.1	1.1	5.6	14.0	2.2
+27	11	2023	Iruña	11.0	1.1	6.1	24.0	1.9
+27	11	2023	Alforja	17.2	8.2	12.7	25.0	0.0
+27	11	2023	Reus	18.8	5.3	12.0	35.0	0.0
+27	11	2023	Tarragona	18.8	8.4	13.6	0.0	0.0
+27	11	2023	Vigo	12.7	9.2	10.9	15.0	0.3
 4	1	2023	Donostia	18.1	5.6	11.9	12.0	0.0
 4	1	2023	Bilbo	17.7	3.4	10.6	10.0	0.0
 4	1	2023	Gasteiz	13.6	-3.8	4.9	9.0	0.0
@@ -9303,7 +9487,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 2	1	2023	Reus	16.4	7.3	11.8	13.0	0.0
 2	1	2023	Tarragona	15.8	8.4	12.1	0.0	0.0
 2	1	2023	Vigo	12.0	6.2	9.1	14.0	6.5
-23	6	2023	Donostia / San Sebastián Aeropuerto	24.7	16.4	20.6	18.0	0.0
+23	6	2023	Donostia	24.7	16.4	20.6	18.0	0.0
 23	6	2023	Bilbo	28.6	15.8	22.2	16.0	0.0
 23	6	2023	Vitoria-Gasteiz Aeropuerto	28.5	13.4	20.9	24.0	0.0
 23	6	2023	Iruña	28.3	12.1	20.2	24.0	0.0
@@ -9311,7 +9495,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	6	2023	Reus	30.7	19.3	25.0	26.0	0.0
 23	6	2023	Tarragona	28.8	20.4	24.6	0.0	0.0
 23	6	2023	Vigo	29.8	15.6	22.7	17.0	0.0
-17	9	2023	Donostia / San Sebastián Aeropuerto	29.0	18.7	23.9	31.0	0.0
+17	9	2023	Donostia	29.0	18.7	23.9	31.0	0.0
 17	9	2023	Bilbo	27.1	16.6	21.9	26.0	1.8
 17	9	2023	Vitoria-Gasteiz Aeropuerto	25.5	12.9	19.2	31.0	3.8
 17	9	2023	Iruña	26.2	17.5	21.9	29.0	0.8
@@ -9319,7 +9503,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 17	9	2023	Reus	29.1	20.6	24.9	16.0	0.7
 17	9	2023	Tarragona	28.1	21.0	24.6	0.0	0.0
 17	9	2023	Vigo	18.1	15.0	16.6	30.0	19.9
-29	10	2023	Donostia / San Sebastián Aeropuerto	21.8	14.2	18.0	35.0	13.1
+29	10	2023	Donostia	21.8	14.2	18.0	35.0	13.1
 29	10	2023	Bilbo	21.2	14.9	18.1	28.0	2.0
 29	10	2023	Vitoria-Gasteiz Aeropuerto	18.5	12.4	15.4	54.0	4.8
 29	10	2023	Iruña	18.4	12.2	15.3	47.0	10.0
@@ -9335,7 +9519,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	2	2023	Reus	13.2	-0.1	6.5	17.0	0.0
 10	2	2023	Tarragona	13.7	4.8	9.3	0.0	0.0
 10	2	2023	Vigo	15.9	3.9	9.9	15.0	0.0
-12	7	2023	Donostia / San Sebastián Aeropuerto	26.1	17.8	21.9	17.0	0.0
+12	7	2023	Donostia	26.1	17.8	21.9	17.0	0.0
 12	7	2023	Bilbo	26.9	16.4	21.6	19.0	0.3
 12	7	2023	Vitoria-Gasteiz Aeropuerto	25.3	11.4	18.3	27.0	0.0
 12	7	2023	Iruña	27.0	16.2	21.6	31.0	0.0
@@ -9343,7 +9527,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 12	7	2023	Reus	31.5	24.1	27.8	22.0	0.0
 12	7	2023	Tarragona	29.6	24.9	27.3	0.0	0.0
 12	7	2023	Vigo	23.3	15.9	19.6	24.0	0.2
-7	9	2023	Donostia / San Sebastián Aeropuerto	34.1	19.8	26.9	17.0	0.0
+7	9	2023	Donostia	34.1	19.8	26.9	17.0	0.0
 7	9	2023	Bilbo	31.9	16.4	24.1	0.0	0.0
 7	9	2023	Vitoria-Gasteiz Aeropuerto	31.9	16.4	24.1	22.0	0.0
 7	9	2023	Iruña	31.4	16.4	23.9	17.0	0.0
@@ -9351,7 +9535,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 7	9	2023	Reus	28.6	18.3	23.4	17.0	0.0
 7	9	2023	Tarragona	27.1	18.8	22.9	0.0	0.0
 7	9	2023	Vigo	27.0	17.4	22.2	26.0	0.0
-22	10	2023	Donostia / San Sebastián Aeropuerto	21.9	9.0	15.4	29.0	0.4
+22	10	2023	Donostia	21.9	9.0	15.4	29.0	0.4
 22	10	2023	Bilbo	21.9	9.6	15.8	28.0	0.1
 22	10	2023	Vitoria-Gasteiz Aeropuerto	18.0	2.4	10.2	24.0	2.5
 22	10	2023	Iruña	18.1	4.7	11.4	29.0	1.0
@@ -9367,6 +9551,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 15	2	2023	Reus	15.0	1.8	8.4	14.0	0.0
 15	2	2023	Tarragona	15.2	4.6	9.9	0.0	0.0
 15	2	2023	Vigo	18.9	7.7	13.3	22.0	0.0
+16	11	2023	Donostia	20.2	13.1	16.7	33.0	4.5
+16	11	2023	Bilbo	22.5	14.2	18.3	33.0	1.0
+16	11	2023	Vitoria-Gasteiz Aeropuerto	18.0	11.1	14.6	39.0	1.4
+16	11	2023	Iruña	19.1	10.0	14.6	23.0	0.2
+16	11	2023	Alforja	21.7	10.2	16.0	24.0	0.0
+16	11	2023	Reus	23.5	11.0	17.3	27.0	0.0
+16	11	2023	Tarragona	23.7	13.0	18.4	0.0	0.0
+16	11	2023	Vigo	18.4	12.4	15.4	23.0	17.2
 1	6	2023	Donostia	23.2	15.7	19.5	17.0	0.0
 1	6	2023	Bilbo	24.2	16.1	20.2	18.0	0.0
 1	6	2023	Gasteiz	23.2	9.6	16.4	28.0	3.6
@@ -9391,6 +9583,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 30	5	2023	Reus	25.2	13.5	19.4	17.0	0.0
 30	5	2023	Tarragona	23.8	16.2	20.0	0.0	0.0
 30	5	2023	Vigo	19.9	14.0	16.9	19.0	2.5
+24	11	2023	Donostia	13.3	9.0	11.2	18.0	0.0
+24	11	2023	Bilbo	14.8	9.0	11.9	9.0	0.2
+24	11	2023	Vitoria-Gasteiz Aeropuerto	11.3	7.2	9.3	22.0	0.0
+24	11	2023	Iruña	10.9	6.1	8.5	39.0	0.0
+24	11	2023	Alforja	16.0	6.3	11.2	39.0	0.0
+24	11	2023	Reus	21.8	5.4	13.6	41.0	0.0
+24	11	2023	Tarragona	23.6	7.1	15.4	0.0	0.0
+24	11	2023	Vigo	16.7	5.6	11.2	17.0	0.0
 27	1	2023	Donostia	8.4	3.9	6.1	21.0	1.6
 27	1	2023	Bilbo	8.6	4.3	6.5	28.0	18.8
 27	1	2023	Gasteiz	4.4	1.2	2.8	31.0	1.6
@@ -9405,7 +9605,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 29	1	2023	Reus	11.2	-1.4	4.9	23.0	0.0
 29	1	2023	Tarragona	11.5	3.6	7.5	0.0	0.0
 29	1	2023	Vigo	11.6	0.9	6.3	23.0	0.0
-8	7	2023	Donostia / San Sebastián Aeropuerto	27.1	19.8	23.4	17.0	0.0
+8	7	2023	Donostia	27.1	19.8	23.4	17.0	0.0
 8	7	2023	Bilbo	27.2	17.8	22.5	16.0	0.0
 8	7	2023	Vitoria-Gasteiz Aeropuerto	30.3	14.2	22.2	21.0	0.0
 8	7	2023	Iruña	34.1	13.5	23.8	26.0	0.0
@@ -9436,7 +9636,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	5	2023	Reus	26.5	13.2	19.8	21.0	0.0
 24	5	2023	Tarragona	25.5	14.4	19.9	0.0	0.0
 24	5	2023	Vigo	28.0	13.5	20.8	26.0	0.0
-15	9	2023	Donostia / San Sebastián Aeropuerto	28.1	17.6	22.9	19.0	0.7
+15	9	2023	Donostia	28.1	17.6	22.9	19.0	0.7
 15	9	2023	Bilbo	26.5	17.0	21.8	28.0	0.4
 15	9	2023	Vitoria-Gasteiz Aeropuerto	22.5	13.9	18.2	22.0	2.5
 15	9	2023	Iruña	22.1	17.3	19.7	39.0	2.9
@@ -9444,7 +9644,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 15	9	2023	Reus	24.4	18.9	21.6	31.0	30.1
 15	9	2023	Tarragona	24.6	19.4	22.0	0.0	31.6
 15	9	2023	Vigo	22.2	16.3	19.3	22.0	0.0
-25	7	2023	Donostia / San Sebastián Aeropuerto	19.2	16.2	17.7	27.0	11.2
+7	11	2023	Donostia	17.0	5.8	11.4	25.0	0.0
+7	11	2023	Bilbo	15.3	4.8	10.1	26.0	1.4
+7	11	2023	Vitoria-Gasteiz Aeropuerto	12.4	1.8	7.1	32.0	0.0
+7	11	2023	Iruña	15.3	7.0	11.2	0.0	0.0
+7	11	2023	Alforja	15.3	7.0	11.2	22.0	0.0
+7	11	2023	Reus	17.7	4.8	11.3	27.0	0.0
+7	11	2023	Tarragona	20.0	6.3	13.2	0.0	0.0
+7	11	2023	Vigo	13.4	7.5	10.4	16.0	14.7
+25	7	2023	Donostia	19.2	16.2	17.7	27.0	11.2
 25	7	2023	Bilbo	22.7	16.0	19.4	35.0	2.1
 25	7	2023	Vitoria-Gasteiz Aeropuerto	22.4	9.8	16.1	29.0	0.0
 25	7	2023	Iruña	21.1	14.1	17.6	31.0	0.0
@@ -9452,6 +9660,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	7	2023	Reus	32.3	20.8	26.5	43.0	0.0
 25	7	2023	Tarragona	34.1	21.1	27.6	0.0	0.0
 25	7	2023	Vigo	23.4	12.7	18.0	21.0	0.0
+15	11	2023	Donostia	17.7	12.5	15.1	12.0	1.5
+15	11	2023	Bilbo	20.1	13.9	17.0	17.0	0.9
+15	11	2023	Vitoria-Gasteiz Aeropuerto	17.6	12.0	14.8	15.0	0.8
+15	11	2023	Iruña	18.5	10.4	14.4	12.0	0.1
+15	11	2023	Alforja	22.2	10.0	16.1	33.0	0.0
+15	11	2023	Reus	21.6	12.6	17.1	28.0	0.0
+15	11	2023	Tarragona	21.0	14.6	17.8	0.0	0.0
+15	11	2023	Vigo	17.1	13.4	15.3	22.0	3.7
 28	3	2023	Donostia	26.7	6.2	16.5	18.0	0.0
 28	3	2023	Bilbo	28.8	6.6	17.7	18.0	0.0
 28	3	2023	Gasteiz	22.4	-1.7	10.3	23.0	0.0
@@ -9460,7 +9676,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 28	3	2023	Reus	18.2	9.1	13.7	20.0	0.0
 28	3	2023	Tarragona	17.7	10.7	14.2	0.0	0.0
 28	3	2023	Vigo	21.2	10.2	15.7	24.0	0.0
-8	9	2023	Donostia / San Sebastián Aeropuerto	28.5	22.2	25.4	17.0	0.0
+8	9	2023	Donostia	28.5	22.2	25.4	17.0	0.0
 8	9	2023	Bilbo	34.2	20.7	27.5	17.0	0.0
 8	9	2023	Vitoria-Gasteiz Aeropuerto	31.3	18.3	24.8	18.0	0.0
 8	9	2023	Iruña	32.5	18.8	25.6	17.0	0.0
@@ -9476,7 +9692,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 8	4	2023	Reus	17.9	7.8	12.8	24.0	0.0
 8	4	2023	Tarragona	17.7	10.3	14.0	0.0	0.0
 8	4	2023	Vigo	24.4	10.9	17.6	27.0	0.0
-25	10	2023	Donostia / San Sebastián Aeropuerto	20.8	15.7	18.2	31.0	3.4
+25	10	2023	Donostia	20.8	15.7	18.2	31.0	3.4
 25	10	2023	Bilbo	23.0	15.1	19.1	36.0	0.0
 25	10	2023	Vitoria-Gasteiz Aeropuerto	17.1	13.2	15.2	32.0	0.3
 25	10	2023	Iruña	18.5	8.5	13.5	21.0	0.0
@@ -9484,7 +9700,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 25	10	2023	Reus	23.7	10.8	17.3	32.0	0.0
 25	10	2023	Tarragona	25.6	13.5	19.6	0.0	0.0
 25	10	2023	Vigo	18.4	14.5	16.4	36.0	39.9
-16	9	2023	Donostia / San Sebastián Aeropuerto	28.8	18.6	23.7	22.0	0.0
+16	9	2023	Donostia	28.8	18.6	23.7	22.0	0.0
 16	9	2023	Bilbo	27.8	17.9	22.8	32.0	31.6
 16	9	2023	Vitoria-Gasteiz Aeropuerto	25.4	15.1	20.3	22.0	0.3
 16	9	2023	Iruña	27.5	16.0	21.8	29.0	6.1
@@ -9492,6 +9708,14 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 16	9	2023	Reus	28.1	17.9	23.0	18.0	0.0
 16	9	2023	Tarragona	27.5	18.6	23.1	0.0	0.0
 16	9	2023	Vigo	22.8	15.5	19.1	28.0	9.2
+20	11	2023	Donostia	15.1	10.5	12.8	24.0	14.9
+20	11	2023	Bilbo	14.6	11.1	12.9	24.0	4.8
+20	11	2023	Vitoria-Gasteiz Aeropuerto	14.6	4.1	9.4	26.0	0.0
+20	11	2023	Iruña	16.6	4.8	10.7	29.0	0.5
+20	11	2023	Alforja	19.4	7.2	13.3	17.0	0.0
+20	11	2023	Reus	18.0	8.1	13.1	12.0	0.0
+20	11	2023	Tarragona	17.8	10.0	13.9	0.0	0.0
+20	11	2023	Vigo	16.6	8.0	12.3	27.0	0.0
 20	4	2023	Donostia	22.5	11.8	17.2	22.0	0.0
 20	4	2023	Bilbo	19.9	8.6	14.3	21.0	0.0
 20	4	2023	Gasteiz	23.0	2.5	12.8	28.0	0.0
@@ -9523,7 +9747,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 16	3	2023	Reus	17.8	6.9	12.3	14.0	0.0
 16	3	2023	Tarragona	17.5	7.5	12.5	0.0	0.0
 16	3	2023	Vigo	14.0	8.7	11.3	30.0	18.8
-3	7	2023	Donostia / San Sebastián Aeropuerto	25.4	15.2	20.3	0.0	0.0
+3	7	2023	Donostia	25.4	15.2	20.3	0.0	0.0
 3	7	2023	Bilbo	25.4	15.2	20.3	16.0	0.0
 3	7	2023	Vitoria-Gasteiz Aeropuerto	25.3	10.0	17.6	26.0	0.0
 3	7	2023	Iruña	28.3	13.5	20.9	28.0	0.0
@@ -9555,7 +9779,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 1	5	2023	Reus	28.6	12.1	20.4	28.0	0.0
 1	5	2023	Tarragona	29.7	12.6	21.2	0.0	0.0
 1	5	2023	Vigo	23.2	11.9	17.6	24.0	0.0
-10	7	2023	Donostia / San Sebastián Aeropuerto	27.0	18.7	22.9	14.0	0.0
+10	7	2023	Donostia	27.0	18.7	22.9	14.0	0.0
 10	7	2023	Bilbo	28.5	18.6	23.6	20.0	0.0
 10	7	2023	Vitoria-Gasteiz Aeropuerto	32.9	17.0	25.0	23.0	0.0
 10	7	2023	Iruña	36.6	16.4	26.5	21.0	0.0
@@ -9563,7 +9787,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	7	2023	Reus	32.7	22.6	27.7	17.0	0.0
 10	7	2023	Tarragona	29.7	23.5	26.6	0.0	0.0
 10	7	2023	Vigo	26.2	13.4	19.8	24.0	0.0
-23	8	2023	Donostia / San Sebastián Aeropuerto	35.9	21.0	28.5	16.0	0.0
+23	8	2023	Donostia	35.9	21.0	28.5	16.0	0.0
 23	8	2023	Bilbo	44.0	20.1	32.1	18.0	0.0
 23	8	2023	Vitoria-Gasteiz Aeropuerto	40.4	17.5	29.0	18.0	0.0
 23	8	2023	Iruña	42.0	21.1	31.6	17.0	0.0
@@ -9571,7 +9795,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 23	8	2023	Reus	38.2	23.8	31.0	15.0	0.0
 23	8	2023	Tarragona	35.0	24.0	29.5	0.0	0.0
 23	8	2023	Vigo	35.4	19.7	27.6	18.0	0.0
-6	10	2023	Donostia / San Sebastián Aeropuerto	23.5	15.7	19.6	16.0	0.0
+6	10	2023	Donostia	23.5	15.7	19.6	16.0	0.0
 6	10	2023	Bilbo	26.6	15.6	21.1	15.0	0.0
 6	10	2023	Vitoria-Gasteiz Aeropuerto	31.8	8.9	20.3	20.0	0.0
 6	10	2023	Iruña	30.4	11.4	20.9	13.0	0.0
@@ -9587,7 +9811,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 22	4	2023	Reus	21.4	12.7	17.0	20.0	0.0
 22	4	2023	Tarragona	20.5	14.1	17.3	0.0	0.0
 22	4	2023	Vigo	18.4	8.7	13.5	34.0	4.3
-12	9	2023	Donostia / San Sebastián Aeropuerto	23.0	19.3	21.1	26.0	16.2
+12	9	2023	Donostia	23.0	19.3	21.1	26.0	16.2
 12	9	2023	Bilbo	24.4	18.1	21.3	25.0	2.8
 12	9	2023	Vitoria-Gasteiz Aeropuerto	23.5	14.6	19.1	22.0	0.0
 12	9	2023	Iruña	26.0	14.4	20.2	25.0	0.0
@@ -9611,7 +9835,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 30	3	2023	Reus	20.1	7.6	13.9	14.0	0.0
 30	3	2023	Tarragona	18.3	10.5	14.4	0.0	0.0
 30	3	2023	Vigo	16.7	11.2	14.0	40.0	4.5
-5	8	2023	Donostia / San Sebastián Aeropuerto	24.6	15.9	20.3	18.0	9.3
+5	8	2023	Donostia	24.6	15.9	20.3	18.0	9.3
 5	8	2023	Bilbo	25.1	12.1	18.6	23.0	4.5
 5	8	2023	Vitoria-Gasteiz Aeropuerto	26.9	6.6	16.7	28.0	0.0
 5	8	2023	Iruña	26.7	11.6	19.2	33.0	0.0
@@ -9635,7 +9859,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 3	5	2023	Reus	23.8	10.7	17.2	24.0	0.0
 3	5	2023	Tarragona	22.4	13.0	17.7	0.0	0.0
 3	5	2023	Vigo	23.5	13.6	18.6	31.0	1.9
-18	6	2023	Donostia / San Sebastián Aeropuerto	24.2	17.3	20.8	16.0	12.9
+18	6	2023	Donostia	24.2	17.3	20.8	16.0	12.9
 18	6	2023	Bilbo	22.9	16.7	19.8	16.0	33.3
 18	6	2023	Vitoria-Gasteiz Aeropuerto	28.0	13.1	20.6	26.0	0.1
 18	6	2023	Iruña	26.8	16.4	21.6	31.0	2.5
@@ -9651,7 +9875,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	3	2023	Reus	21.9	12.8	17.3	40.0	10.1
 9	3	2023	Tarragona	22.3	13.5	17.9	0.0	9.8
 9	3	2023	Vigo	15.1	10.1	12.6	37.0	8.9
-3	10	2023	Donostia / San Sebastián Aeropuerto	24.5	19.4	21.9	21.0	0.1
+3	10	2023	Donostia	24.5	19.4	21.9	21.0	0.1
 3	10	2023	Bilbo	23.1	16.8	19.9	22.0	2.7
 3	10	2023	Vitoria-Gasteiz Aeropuerto	24.3	11.2	17.7	30.0	0.0
 3	10	2023	Iruña	24.8	14.1	19.4	28.0	0.0
@@ -9667,7 +9891,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 15	3	2023	Reus	19.0	7.6	13.3	26.0	0.0
 15	3	2023	Tarragona	18.9	9.5	14.2	0.0	0.0
 15	3	2023	Vigo	18.8	7.6	13.2	21.0	0.0
-7	10	2023	Donostia / San Sebastián Aeropuerto	28.0	15.5	21.8	14.0	0.0
+7	10	2023	Donostia	28.0	15.5	21.8	14.0	0.0
 7	10	2023	Bilbo	33.3	16.4	24.8	14.0	0.0
 7	10	2023	Vitoria-Gasteiz Aeropuerto	32.1	10.8	21.4	14.0	0.0
 7	10	2023	Iruña	30.0	11.2	20.6	8.0	0.0
@@ -9683,7 +9907,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 14	3	2023	Reus	20.5	13.0	16.8	59.0	0.0
 14	3	2023	Tarragona	22.6	13.3	18.0	0.0	0.0
 14	3	2023	Vigo	15.3	8.7	12.0	15.0	0.6
-10	9	2023	Donostia / San Sebastián Aeropuerto	26.9	19.7	23.3	16.0	15.7
+10	9	2023	Donostia	26.9	19.7	23.3	16.0	15.7
 10	9	2023	Bilbo	28.7	19.7	24.2	26.0	7.4
 10	9	2023	Vitoria-Gasteiz Aeropuerto	30.7	16.1	23.4	22.0	0.7
 10	9	2023	Iruña	31.5	16.7	24.1	41.0	1.9
@@ -9691,7 +9915,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 10	9	2023	Reus	28.6	20.2	24.4	18.0	0.0
 10	9	2023	Tarragona	27.5	21.3	24.4	0.0	0.0
 10	9	2023	Vigo	25.4	14.5	19.9	21.0	0.0
-20	8	2023	Donostia / San Sebastián Aeropuerto	26.1	22.7	24.4	17.0	0.0
+20	8	2023	Donostia	26.1	22.7	24.4	17.0	0.0
 20	8	2023	Bilbo	27.5	20.3	23.9	18.0	0.0
 20	8	2023	Vitoria-Gasteiz Aeropuerto	32.5	16.8	24.6	30.0	0.0
 20	8	2023	Iruña	38.1	19.2	28.6	33.0	0.0
@@ -9707,7 +9931,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	2	2023	Reus	12.8	3.2	8.0	18.0	0.0
 9	2	2023	Tarragona	14.0	6.9	10.5	0.0	0.2
 9	2	2023	Vigo	16.7	3.9	10.3	15.0	0.0
-18	10	2023	Donostia / San Sebastián Aeropuerto	27.1	18.9	23.0	47.0	2.0
+18	10	2023	Donostia	27.1	18.9	23.0	47.0	2.0
 18	10	2023	Bilbo	27.7	21.3	24.5	36.0	0.9
 18	10	2023	Vitoria-Gasteiz Aeropuerto	23.5	18.3	20.9	46.0	0.5
 18	10	2023	Iruña	25.6	17.6	21.6	46.0	1.0
@@ -9715,7 +9939,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 18	10	2023	Reus	26.6	17.3	21.9	22.0	0.0
 18	10	2023	Tarragona	27.7	19.1	23.4	0.0	0.0
 18	10	2023	Vigo	18.9	15.5	17.2	41.0	41.8
-15	10	2023	Donostia / San Sebastián Aeropuerto	19.7	15.2	17.5	28.0	0.0
+15	10	2023	Donostia	19.7	15.2	17.5	28.0	0.0
 15	10	2023	Bilbo	19.8	14.2	17.0	19.0	0.0
 15	10	2023	Vitoria-Gasteiz Aeropuerto	20.5	9.5	15.0	15.0	7.5
 15	10	2023	Iruña	20.8	12.7	16.7	22.0	0.6
@@ -9731,7 +9955,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 29	3	2023	Reus	18.5	7.8	13.2	19.0	0.0
 29	3	2023	Tarragona	18.7	10.3	14.5	0.0	0.0
 29	3	2023	Vigo	21.6	13.8	17.7	41.0	2.4
-28	10	2023	Donostia / San Sebastián Aeropuerto	23.6	9.4	16.5	46.0	0.0
+28	10	2023	Donostia	23.6	9.4	16.5	46.0	0.0
 28	10	2023	Bilbo	22.8	12.2	17.5	33.0	0.0
 28	10	2023	Vitoria-Gasteiz Aeropuerto	19.2	12.2	15.7	49.0	0.0
 28	10	2023	Iruña	19.3	8.5	13.9	44.0	0.0
@@ -9747,7 +9971,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	4	2023	Reus	23.2	11.5	17.4	24.0	0.0
 24	4	2023	Tarragona	22.2	12.8	17.5	0.0	0.0
 24	4	2023	Vigo	17.7	13.3	15.5	24.0	1.9
-25	8	2023	Donostia / San Sebastián Aeropuerto	23.9	21.6	22.8	18.0	0.2
+10	11	2023	Donostia	12.9	11.0	11.9	22.0	57.2
+10	11	2023	Bilbo	13.7	11.0	12.3	14.0	6.5
+10	11	2023	Vitoria-Gasteiz Aeropuerto	14.1	8.8	11.5	21.0	0.4
+10	11	2023	Iruña	15.8	8.3	12.1	18.0	0.1
+10	11	2023	Alforja	17.3	11.2	14.2	28.0	0.0
+10	11	2023	Reus	20.0	12.7	16.3	37.0	0.0
+10	11	2023	Tarragona	22.4	14.4	18.4	0.0	0.0
+10	11	2023	Vigo	16.2	10.7	13.5	23.0	57.0
+25	8	2023	Donostia	23.9	21.6	22.8	18.0	0.2
 25	8	2023	Bilbo	23.9	18.4	21.1	17.0	0.4
 25	8	2023	Vitoria-Gasteiz Aeropuerto	27.5	17.7	22.6	34.0	0.0
 25	8	2023	Iruña	29.8	18.0	23.9	31.0	0.0
@@ -9763,7 +9995,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	5	2023	Reus	23.5	10.0	16.8	28.0	6.3
 19	5	2023	Tarragona	22.4	10.6	16.5	0.0	9.6
 19	5	2023	Vigo	21.3	10.4	15.8	31.0	0.0
-9	10	2023	Donostia / San Sebastián Aeropuerto	22.4	13.4	17.9	17.0	0.0
+9	10	2023	Donostia	22.4	13.4	17.9	17.0	0.0
 9	10	2023	Bilbo	27.6	11.9	19.8	13.0	0.0
 9	10	2023	Vitoria-Gasteiz Aeropuerto	28.9	3.7	16.3	13.0	0.0
 9	10	2023	Iruña	28.8	11.3	20.0	10.0	0.0
@@ -9771,7 +10003,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 9	10	2023	Reus	26.5	14.9	20.7	16.0	0.0
 9	10	2023	Tarragona	26.8	17.9	22.3	0.0	0.0
 9	10	2023	Vigo	31.5	16.7	24.1	15.0	0.0
-25	9	2023	Donostia / San Sebastián Aeropuerto	23.9	14.1	19.0	16.0	0.0
+25	9	2023	Donostia	23.9	14.1	19.0	16.0	0.0
 25	9	2023	Bilbo	28.2	12.0	20.1	16.0	0.0
 25	9	2023	Vitoria-Gasteiz Aeropuerto	29.8	5.0	17.4	15.0	0.0
 25	9	2023	Iruña	29.3	8.6	18.9	8.0	0.0
@@ -9794,7 +10026,15 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 24	3	2023	Reus	24.2	7.2	15.7	31.0	0.0
 24	3	2023	Tarragona	25.3	10.0	17.6	0.0	0.0
 24	3	2023	Vigo	15.0	8.7	11.8	22.0	9.8
-20	9	2023	Donostia / San Sebastián Aeropuerto	26.4	16.4	21.4	17.0	0.0
+13	11	2023	Donostia	27.0	11.1	19.1	33.0	0.0
+13	11	2023	Bilbo	25.2	17.0	21.1	40.0	0.0
+13	11	2023	Vitoria-Gasteiz Aeropuerto	20.1	15.5	17.8	51.0	0.0
+13	11	2023	Iruña	22.7	16.0	19.4	0.0	0.0
+13	11	2023	Alforja	22.7	16.0	19.4	26.0	0.0
+13	11	2023	Reus	25.6	10.6	18.1	30.0	0.0
+13	11	2023	Tarragona	27.3	13.5	20.4	0.0	0.0
+13	11	2023	Vigo	17.3	15.9	16.6	28.0	6.8
+20	9	2023	Donostia	26.4	16.4	21.4	17.0	0.0
 20	9	2023	Bilbo	26.7	15.1	20.9	20.0	0.0
 20	9	2023	Vitoria-Gasteiz Aeropuerto	27.5	9.9	18.7	31.0	0.0
 20	9	2023	Iruña	26.8	14.6	20.7	22.0	0.0
@@ -9810,7 +10050,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 5	4	2023	Reus	19.2	3.4	11.3	24.0	0.0
 5	4	2023	Tarragona	18.0	7.5	12.8	0.0	0.0
 5	4	2023	Vigo	21.1	7.8	14.5	23.0	0.0
-8	8	2023	Donostia / San Sebastián Aeropuerto	25.2	16.0	20.6	14.0	0.0
+8	8	2023	Donostia	25.2	16.0	20.6	14.0	0.0
 8	8	2023	Bilbo	29.6	12.7	21.2	23.0	0.0
 8	8	2023	Vitoria-Gasteiz Aeropuerto	33.5	7.8	20.7	26.0	0.0
 8	8	2023	Iruña	34.4	10.4	22.4	23.0	0.0
@@ -9825,7 +10065,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 19	1	2023	Reus	12.8	4.0	8.4	50.0	0.0
 19	1	2023	Tarragona	14.5	5.2	9.8	0.0	0.0
 19	1	2023	Vigo	12.0	2.4	7.2	27.0	59.4
-15	7	2023	Donostia / San Sebastián Aeropuerto	23.2	18.2	20.7	17.0	4.0
+15	7	2023	Donostia	23.2	18.2	20.7	17.0	4.0
 15	7	2023	Bilbo	21.3	17.7	19.5	24.0	0.9
 15	7	2023	Vitoria-Gasteiz Aeropuerto	23.8	12.0	17.9	35.0	0.0
 15	7	2023	Iruña	28.8	15.7	22.2	37.0	0.0
@@ -9833,7 +10073,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 15	7	2023	Reus	32.0	24.5	28.3	19.0	0.0
 15	7	2023	Tarragona	30.2	25.7	28.0	0.0	0.0
 15	7	2023	Vigo	20.6	13.7	17.2	19.0	5.3
-18	9	2023	Donostia / San Sebastián Aeropuerto	26.7	17.2	22.0	33.0	0.5
+18	9	2023	Donostia	26.7	17.2	22.0	33.0	0.5
 18	9	2023	Bilbo	25.3	18.4	21.8	27.0	0.0
 18	9	2023	Vitoria-Gasteiz Aeropuerto	24.3	14.0	19.1	35.0	0.0
 18	9	2023	Iruña	25.2	14.6	19.9	24.0	0.0
@@ -9841,7 +10081,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 18	9	2023	Reus	30.1	20.6	25.4	24.0	0.5
 18	9	2023	Tarragona	31.5	21.4	26.4	0.0	0.0
 18	9	2023	Vigo	20.7	14.8	17.8	22.0	14.8
-8	10	2023	Donostia / San Sebastián Aeropuerto	28.4	15.3	21.8	19.0	0.0
+8	10	2023	Donostia	28.4	15.3	21.8	19.0	0.0
 8	10	2023	Bilbo	32.0	15.3	23.7	15.0	0.0
 8	10	2023	Vitoria-Gasteiz Aeropuerto	32.3	8.2	20.2	17.0	0.0
 8	10	2023	Iruña	30.2	11.3	20.8	8.0	0.0
@@ -9896,7 +10136,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 6	2	2023	Reus	12.6	3.8	8.2	24.0	3.0
 6	2	2023	Tarragona	14.0	4.8	9.4	0.0	3.4
 6	2	2023	Vigo	17.2	3.3	10.3	16.0	0.0
-1	10	2023	Donostia / San Sebastián Aeropuerto	32.0	15.4	23.7	16.0	0.0
+1	10	2023	Donostia	32.0	15.4	23.7	16.0	0.0
 1	10	2023	Bilbo	32.3	17.1	24.7	18.0	0.0
 1	10	2023	Vitoria-Gasteiz Aeropuerto	34.5	8.5	21.5	18.0	0.0
 1	10	2023	Iruña	32.5	11.5	22.0	6.0	0.0
@@ -9904,7 +10144,7 @@ Eguna	Hilab	Urtea	Tokia	Tmax	Tmin	Tmean	Vmax	Euria
 1	10	2023	Reus	28.6	16.7	22.7	15.0	0.0
 1	10	2023	Tarragona	27.5	17.9	22.7	0.0	0.0
 1	10	2023	Vigo	29.8	18.6	24.2	15.0	0.0
-27	6	2023	Donostia / San Sebastián Aeropuerto	22.9	19.5	21.2	12.0	0.0
+27	6	2023	Donostia	22.9	19.5	21.2	12.0	0.0
 27	6	2023	Bilbo	23.5	18.5	21.0	15.0	0.0
 27	6	2023	Vitoria-Gasteiz Aeropuerto	20.0	15.7	17.8	24.0	0.0
 27	6	2023	Iruña	25.3	15.8	20.5	36.0	0.0
