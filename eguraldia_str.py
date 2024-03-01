@@ -84,7 +84,7 @@ with st.form('Taula0'):
 	selected_zer0 = st.selectbox(label='Paràmetre', options=['Tmax','Tmin','Euria','Vmax'])
 	selected_toki0 = st.selectbox(label='Municipi', options=['Tots', 'vilaplana','la-mussara','laleixar','lalbiol','alforja',
 		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
-	selected_urte0 = st.selectbox(label='Any', options=['Tots',2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	selected_urte0 = st.selectbox(label='Any', options=['Tots',2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
 	selected_hilab0 = st.selectbox(label='Mes', options=['Tots', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 	selected_zenbat0= st.selectbox(label='Nombre de dades', options=[5,10,20,30,50])
 	submitted0 = st.form_submit_button('Envia selecció')
@@ -160,8 +160,8 @@ with st.form('Taula7'):
 
 	selected_toki7 = st.selectbox(label='Municipi', options=['vilaplana','la-mussara','laleixar','lalbiol','alforja',
 		'Donostia','Bilbo','Gasteiz','Iruña','Alforja','Reus','Tarragona','Vigo'])
-	#selected_urte7a = st.selectbox(label='Any 1', options=[2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
-	#selected_urte7b = st.selectbox(label='Any 2', options=[2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	#selected_urte7a = st.selectbox(label='Any 1', options=[2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	#selected_urte7b = st.selectbox(label='Any 2', options=[2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
 	submitted7 = st.form_submit_button('Envia selecció')
 
 	if submitted7:
@@ -171,21 +171,24 @@ with st.form('Taula7'):
 		if (selected_toki7=='vilaplana' or selected_toki7=='la-mussara' or selected_toki7=='laleixar' or 
 			selected_toki7=='lalbiol' or selected_toki7=='alforja'):
 			
+			filtered_2024 = tmp_tokia7[tmp_tokia7['Urtea'] == 2024]
 			filtered_2023 = tmp_tokia7[tmp_tokia7['Urtea'] == 2023]
 			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
 			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
 			filtered_2020 = tmp_tokia7[tmp_tokia7['Urtea'] == 2020]
 			filtered_2019 = tmp_tokia7[tmp_tokia7['Urtea'] == 2019]
-			
+
+			datuak_2024=filtered_2024.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2023=filtered_2023.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2022=filtered_2022.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2021=filtered_2021.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2020=filtered_2020.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2019=filtered_2019.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 
-			batera = pd.concat([datuak_2023,datuak_2022,datuak_2021,datuak_2020,datuak_2019], ignore_index=True, axis=1)
-			batera=batera.rename(columns = {0:'2023',1:'2022',2:'2021',3:'2020',4:'2019'})
+			batera = pd.concat([datuak_2024,datuak_2023,datuak_2022,datuak_2021,datuak_2020,datuak_2019], ignore_index=True, axis=1)
+			batera=batera.rename(columns = {0:'2024',1:'2023',2:'2022',3:'2021',4:'2020',5:'2019'})
 		else:
+			filtered_2024 = tmp_tokia7[tmp_tokia7['Urtea'] == 2024]
 			filtered_2023 = tmp_tokia7[tmp_tokia7['Urtea'] == 2023]
 			filtered_2022 = tmp_tokia7[tmp_tokia7['Urtea'] == 2022]
 			filtered_2021 = tmp_tokia7[tmp_tokia7['Urtea'] == 2021]
@@ -198,6 +201,7 @@ with st.form('Taula7'):
 			filtered_2014 = tmp_tokia7[tmp_tokia7['Urtea'] == 2014]
 			filtered_2013 = tmp_tokia7[tmp_tokia7['Urtea'] == 2013]
 			
+			datuak_2024=filtered_2024.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2023=filtered_2023.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2022=filtered_2022.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2021=filtered_2021.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
@@ -210,10 +214,10 @@ with st.form('Taula7'):
 			datuak_2014=filtered_2014.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 			datuak_2013=filtered_2013.sort_values(['Hilab'],ascending=True).groupby(['Hilab'], sort = False).sum()['Euria']
 
-			batera = pd.concat([datuak_2023,datuak_2022,datuak_2021,datuak_2020,datuak_2019,datuak_2018,datuak_2017,datuak_2016,
+			batera = pd.concat([datuak_2024,datuak_2023,datuak_2022,datuak_2021,datuak_2020,datuak_2019,datuak_2018,datuak_2017,datuak_2016,
 				datuak_2015,datuak_2014,datuak_2013], ignore_index=True, axis=1)
-			batera=batera.rename(columns = {0:'2023',1:'2022',2:'2021',3:'2020',4:'2019',5:'2018',6:'2017',7:'2016',8:'2015',9:'2014',10:'2013'})
-
+			batera=batera.rename(columns = {0:'2024', 1:'2023',2:'2022',3:'2021',4:'2020',5:'2019',6:'2018',7:'2017',8:'2016',9:'2015',10:'2014',11:'2013'})
+			
 		
 		#st.dataframe(datuak_ta7)
 		st.table(batera.style.format("{:.1f}"))
@@ -252,7 +256,7 @@ with st.form('Grafika2'):
 	selected_toki2 = st.selectbox(label='Municipi', options=df_all['Tokia'].unique())
 	#selected_urte2 = st.selectbox(label='Any', options=df_all['Urtea'].unique())
 	#Goiko aukerarekin, urteak desordenatuta daude. Eskuz jarriko ditut
-	selected_urte2 = st.selectbox(label='Any', options=[2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
+	selected_urte2 = st.selectbox(label='Any', options=[2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013])
 	submitted2 = st.form_submit_button('Envia selecció')
 
 	if submitted2:
